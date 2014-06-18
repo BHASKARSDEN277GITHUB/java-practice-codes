@@ -1,0 +1,44 @@
+import java.lang.* ;
+import java.io.*;
+import java.util.* ;
+import java.util.Properties ;
+import javax.mail.* ;
+import javax.mail.internet.MimeMessage ;
+
+
+public class mymailfetcher
+{
+
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in) ;
+		String username = input.nextLine() ;
+		String password = input.nextLine() ;
+		Properties sysprop = System.getProperties() ; //get list of system properties in sysprop .. key,value  pairs .
+	sysprop.setProperties("mail.store.protocol","imaps") ; //add imap protocol to property list ..
+		try{
+		Session newsession = Session.getDefaultInstance(sysprop,null) ; 
+//get the default session object in the system properties ..
+		Store newstore = newsession.getStore() ; //get Store that implements current session ..
+		
+		newstore.connect("imap.gmail.com",username,password) ;
+		System.out.println(newstore) ;
+		Folder newfolder = newstore.getFolder("inbox") ; //get desired folder ..	
+		
+		newfolder.open(Folder.READ_ONLY) ; //OPEN THE INBOX ..
+		Message[] mymessages = newfolder.getMessages() ; 
+		//File dumphere = new File("maildates.txt") ;
+		//dumphere.createNewFile() ;
+		//FileOutputStream writer = new FileOutputStream(dumphere) ;
+		//MimeMessage newmime = new MimeMessage(newsession) ;
+		//System.out.println(newmime.getContent()) ;
+		for(Message m :mymessages)
+		{
+			System.out.println(m.getReceivedDate()) ;
+			//Scanner input1 = new Scanner((String)m.getReceivedDate()) ;
+			//writer.write(input.nextLine().getBytes()) ;
+		}
+		}
+		catch(Exception e){}
+	}
+}

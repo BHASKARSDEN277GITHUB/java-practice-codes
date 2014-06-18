@@ -1,0 +1,28 @@
+import java.util.* ;
+import java.lang.Object.* ;
+
+
+public class generic1
+{
+	public static void main(String[] args) throws ClassCastException
+	{
+		mytype<Integer> obj = new mytype<Integer>() ;
+		obj.array = new Integer[3] ;		
+		obj.array[0] = 34 ;
+		System.out.println(obj.array[0]) ;
+		
+	}
+	
+
+	
+	public static class mytype<T>
+	{
+
+ 		T[] array ;
+		/*public mytype()
+		{
+			array = (T[]) new Object[10] ;
+		}*/
+	}
+
+}
