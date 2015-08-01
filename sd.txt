@@ -1,0 +1,2460 @@
+1
+
+  /*
+
+2
+
+   * Copyright 1997-2006 Sun Microsystems, Inc.  All Rights Reserved.
+
+3
+
+   * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+
+4
+
+   *
+
+5
+
+   * This code is free software; you can redistribute it and/or modify it
+
+6
+
+   * under the terms of the GNU General Public License version 2 only, as
+
+7
+
+   * published by the Free Software Foundation.  Sun designates this
+
+8
+
+   * particular file as subject to the "Classpath" exception as provided
+
+9
+
+   * by Sun in the LICENSE file that accompanied this code.
+
+10
+
+  *
+
+11
+
+  * This code is distributed in the hope that it will be useful, but WITHOUT
+
+12
+
+  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+
+13
+
+  * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+
+14
+
+  * version 2 for more details (a copy is included in the LICENSE file that
+
+15
+
+  * accompanied this code).
+
+16
+
+  *
+
+17
+
+  * You should have received a copy of the GNU General Public License version
+
+18
+
+  * 2 along with this work; if not, write to the Free Software Foundation,
+
+19
+
+  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+
+20
+
+  *
+
+21
+
+  * Please contact Sun Microsystems, Inc., 4150 Network Circle, Santa Clara,
+
+22
+
+  * CA 95054 USA or visit www.sun.com if you need additional information or
+
+23
+
+  * have any questions.
+
+24
+
+  */
+
+25
+
+ 
+
+26
+
+ package java.util;
+
+Linked list implementation of the List interface. Implements all optional list operations, and permits all elements (including null). In addition to implementing the List interface, the LinkedList class provides uniformly named methods to get, remove and insert an element at the beginning and end of the list. These operations allow linked lists to be used as a stack, queue, or double-ended queue.
+
+The class implements the Deque interface, providing first-in-first-out queue operations for add, poll, along with other stack and deque operations.
+
+All of the operations perform as could be expected for a doubly-linked list. Operations that index into the list will traverse the list from the beginning or the end, whichever is closer to the specified index.
+
+Note that this implementation is not synchronized. If multiple threads access a linked list concurrently, and at least one of the threads modifies the list structurally, it must be synchronized externally. (A structural modification is any operation that adds or deletes one or more elements; merely setting the value of an element is not a structural modification.) This is typically accomplished by synchronizing on some object that naturally encapsulates the list. If no such object exists, the list should be "wrapped" using the Collections.synchronizedList method. This is best done at creation time, to prevent accidental unsynchronized access to the list:
+
+   List list = Collections.synchronizedList(new LinkedList(...));
+
+The iterators returned by this class's iterator and listIterator methods are fail-fast: if the list is structurally modified at any time after the iterator is created, in any way except through the Iterator's own remove or add methods, the iterator will throw a ConcurrentModificationException. Thus, in the face of concurrent modification, the iterator fails quickly and cleanly, rather than risking arbitrary, non-deterministic behavior at an undetermined time in the future.
+
+Note that the fail-fast behavior of an iterator cannot be guaranteed as it is, generally speaking, impossible to make any hard guarantees in the presence of unsynchronized concurrent modification. Fail-fast iterators throw ConcurrentModificationException on a best-effort basis. Therefore, it would be wrong to write a program that depended on this exception for its correctness: the fail-fast behavior of iterators should be used only to detect bugs.
+
+This class is a member of the Java Collections Framework.
+
+Parameters:
+    <E> the type of elements held in this collection
+Author(s):
+    Josh Bloch
+Since:
+    1.2
+See also:
+    List
+    ArrayList
+    Vector
+
+89
+
+ 
+
+90
+
+ 
+
+91
+
+ public class  [More ...] LinkedList<E>
+
+92
+
+     extends AbstractSequentialList<E>
+
+93
+
+     implements List<E>, Deque<E>, Cloneable, java.io.Serializable
+
+94
+
+ {
+
+95
+
+     private transient Entry<E> header = new Entry<E>(null, null, null);
+
+96
+
+     private transient int size = 0;
+
+    
+
+Constructs an empty list.
+
+100
+
+101
+
+    public  [More ...] LinkedList() {
+
+102
+
+        header.next = header.previous = header;
+
+103
+
+    }
+
+    
+
+Constructs a list containing the elements of the specified collection, in the order they are returned by the collection's iterator.
+
+Parameters:
+    c the collection whose elements are to be placed into this list
+Throws:
+    java.lang.NullPointerException if the specified collection is null
+
+112
+
+113
+
+    public  [More ...] LinkedList(Collection<? extends E> c) {
+
+114
+
+        this();
+
+115
+
+        addAll(c);
+
+116
+
+    }
+
+    
+
+Returns the first element in this list.
+
+Returns:
+    the first element in this list
+Throws:
+    NoSuchElementException if this list is empty
+
+123
+
+124
+
+    public E  [More ...] getFirst() {
+
+125
+
+        if (size==0)
+
+126
+
+            throw new NoSuchElementException();
+
+127
+
+128
+
+        return header.next.element;
+
+129
+
+    }
+
+    
+
+Returns the last element in this list.
+
+Returns:
+    the last element in this list
+Throws:
+    NoSuchElementException if this list is empty
+
+136
+
+137
+
+    public E  [More ...] getLast()  {
+
+138
+
+        if (size==0)
+
+139
+
+            throw new NoSuchElementException();
+
+140
+
+141
+
+        return header.previous.element;
+
+142
+
+    }
+
+    
+
+Removes and returns the first element from this list.
+
+Returns:
+    the first element from this list
+Throws:
+    NoSuchElementException if this list is empty
+
+149
+
+150
+
+    public E  [More ...] removeFirst() {
+
+151
+
+        return remove(header.next);
+
+152
+
+    }
+
+    
+
+Removes and returns the last element from this list.
+
+Returns:
+    the last element from this list
+Throws:
+    NoSuchElementException if this list is empty
+
+159
+
+160
+
+    public E  [More ...] removeLast() {
+
+161
+
+        return remove(header.previous);
+
+162
+
+    }
+
+    
+
+Inserts the specified element at the beginning of this list.
+
+Parameters:
+    e the element to add
+
+168
+
+169
+
+    public void  [More ...] addFirst(E e) {
+
+170
+
+        addBefore(e, header.next);
+
+171
+
+    }
+
+    
+
+Appends the specified element to the end of this list.
+
+This method is equivalent to add(java.lang.Object).
+
+Parameters:
+    e the element to add
+
+179
+
+180
+
+    public void  [More ...] addLast(E e) {
+
+181
+
+        addBefore(e, header);
+
+182
+
+    }
+
+    
+
+Returns true if this list contains the specified element. More formally, returns true if and only if this list contains at least one element e such that (o==null ? e==null : o.equals(e)).
+
+Parameters:
+    o element whose presence in this list is to be tested
+Returns:
+    true if this list contains the specified element
+
+192
+
+193
+
+    public boolean  [More ...] contains(Object o) {
+
+194
+
+        return indexOf(o) != -1;
+
+195
+
+    }
+
+    
+
+Returns the number of elements in this list.
+
+Returns:
+    the number of elements in this list
+
+201
+
+202
+
+    public int  [More ...] size() {
+
+203
+
+        return size;
+
+204
+
+    }
+
+    
+
+Appends the specified element to the end of this list.
+
+This method is equivalent to addLast(java.lang.Object).
+
+Parameters:
+    e element to be appended to this list
+Returns:
+    true (as specified by Collection.add(java.lang.Object))
+
+213
+
+214
+
+    public boolean  [More ...] add(E e) {
+
+215
+
+        addBefore(e, header);
+
+216
+
+        return true;
+
+217
+
+    }
+
+    
+
+Removes the first occurrence of the specified element from this list, if it is present. If this list does not contain the element, it is unchanged. More formally, removes the element with the lowest index i such that (o==null ? get(i)==null : o.equals(get(i))) (if such an element exists). Returns true if this list contained the specified element (or equivalently, if this list changed as a result of the call).
+
+Parameters:
+    o element to be removed from this list, if present
+Returns:
+    true if this list contained the specified element
+
+231
+
+232
+
+    public boolean  [More ...] remove(Object o) {
+
+233
+
+        if (o==null) {
+
+234
+
+            for (Entry<E> e = header.next; e != header; e = e.next) {
+
+235
+
+                if (e.element==null) {
+
+236
+
+                    remove(e);
+
+237
+
+                    return true;
+
+238
+
+                }
+
+239
+
+            }
+
+240
+
+        } else {
+
+241
+
+            for (Entry<E> e = header.next; e != header; e = e.next) {
+
+242
+
+                if (o.equals(e.element)) {
+
+243
+
+                    remove(e);
+
+244
+
+                    return true;
+
+245
+
+                }
+
+246
+
+            }
+
+247
+
+        }
+
+248
+
+        return false;
+
+249
+
+    }
+
+    
+
+Appends all of the elements in the specified collection to the end of this list, in the order that they are returned by the specified collection's iterator. The behavior of this operation is undefined if the specified collection is modified while the operation is in progress. (Note that this will occur if the specified collection is this list, and it's nonempty.)
+
+Parameters:
+    c collection containing elements to be added to this list
+Returns:
+    true if this list changed as a result of the call
+Throws:
+    java.lang.NullPointerException if the specified collection is null
+
+262
+
+263
+
+    public boolean  [More ...] addAll(Collection<? extends E> c) {
+
+264
+
+        return addAll(size, c);
+
+265
+
+    }
+
+    
+
+Inserts all of the elements in the specified collection into this list, starting at the specified position. Shifts the element currently at that position (if any) and any subsequent elements to the right (increases their indices). The new elements will appear in the list in the order that they are returned by the specified collection's iterator.
+
+Parameters:
+    index index at which to insert the first element from the specified collection
+    c collection containing elements to be added to this list
+Returns:
+    true if this list changed as a result of the call
+Throws:
+    java.lang.IndexOutOfBoundsException
+    java.lang.NullPointerException if the specified collection is null
+
+281
+
+282
+
+    public boolean  [More ...] addAll(int index, Collection<? extends E> c) {
+
+283
+
+        if (index < 0 || index > size)
+
+284
+
+            throw new IndexOutOfBoundsException("Index: "+index+
+
+285
+
+                                                ", Size: "+size);
+
+286
+
+        Object[] a = c.toArray();
+
+287
+
+        int numNew = a.length;
+
+288
+
+        if (numNew==0)
+
+289
+
+            return false;
+
+290
+
+        modCount++;
+
+291
+
+292
+
+        Entry<E> successor = (index==size ? header : entry(index));
+
+293
+
+        Entry<E> predecessor = successor.previous;
+
+294
+
+        for (int i=0; i<numNew; i++) {
+
+295
+
+            Entry<E> e = new Entry<E>((E)a[i], successor, predecessor);
+
+296
+
+            predecessor.next = e;
+
+297
+
+            predecessor = e;
+
+298
+
+        }
+
+299
+
+        successor.previous = predecessor;
+
+300
+
+301
+
+        size += numNew;
+
+302
+
+        return true;
+
+303
+
+    }
+
+    
+
+Removes all of the elements from this list.
+
+307
+
+308
+
+    public void  [More ...] clear() {
+
+309
+
+        Entry<E> e = header.next;
+
+310
+
+        while (e != header) {
+
+311
+
+            Entry<E> next = e.next;
+
+312
+
+            e.next = e.previous = null;
+
+313
+
+            e.element = null;
+
+314
+
+            e = next;
+
+315
+
+        }
+
+316
+
+        header.next = header.previous = header;
+
+317
+
+        size = 0;
+
+318
+
+        modCount++;
+
+319
+
+    }
+
+320
+
+321
+
+322
+
+    // Positional Access Operations
+
+323
+
+
+    
+
+Returns the element at the specified position in this list.
+
+Parameters:
+    index index of the element to return
+Returns:
+    the element at the specified position in this list
+Throws:
+    java.lang.IndexOutOfBoundsException
+
+330
+
+331
+
+    public E  [More ...] get(int index) {
+
+332
+
+        return entry(index).element;
+
+333
+
+    }
+
+    
+
+Replaces the element at the specified position in this list with the specified element.
+
+Parameters:
+    index index of the element to replace
+    element element to be stored at the specified position
+Returns:
+    the element previously at the specified position
+Throws:
+    java.lang.IndexOutOfBoundsException
+
+343
+
+344
+
+    public E  [More ...] set(int index, E element) {
+
+345
+
+        Entry<E> e = entry(index);
+
+346
+
+        E oldVal = e.element;
+
+347
+
+        e.element = element;
+
+348
+
+        return oldVal;
+
+349
+
+    }
+
+    
+
+Inserts the specified element at the specified position in this list. Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).
+
+Parameters:
+    index index at which the specified element is to be inserted
+    element element to be inserted
+Throws:
+    java.lang.IndexOutOfBoundsException
+
+359
+
+360
+
+    public void  [More ...] add(int index, E element) {
+
+361
+
+        addBefore(element, (index==size ? header : entry(index)));
+
+362
+
+    }
+
+    
+
+Removes the element at the specified position in this list. Shifts any subsequent elements to the left (subtracts one from their indices). Returns the element that was removed from the list.
+
+Parameters:
+    index the index of the element to be removed
+Returns:
+    the element previously at the specified position
+Throws:
+    java.lang.IndexOutOfBoundsException
+
+372
+
+373
+
+    public E  [More ...] remove(int index) {
+
+374
+
+        return remove(entry(index));
+
+375
+
+    }
+
+    
+
+Returns the indexed entry.
+
+379
+
+380
+
+    private Entry<E>  [More ...] entry(int index) {
+
+381
+
+        if (index < 0 || index >= size)
+
+382
+
+            throw new IndexOutOfBoundsException("Index: "+index+
+
+383
+
+                                                ", Size: "+size);
+
+384
+
+        Entry<E> e = header;
+
+385
+
+        if (index < (size >> 1)) {
+
+386
+
+            for (int i = 0; i <= index; i++)
+
+387
+
+                e = e.next;
+
+388
+
+        } else {
+
+389
+
+            for (int i = size; i > index; i--)
+
+390
+
+                e = e.previous;
+
+391
+
+        }
+
+392
+
+        return e;
+
+393
+
+    }
+
+394
+
+395
+
+396
+
+    // Search Operations
+
+397
+
+
+    
+
+Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element. More formally, returns the lowest index i such that (o==null ? get(i)==null : o.equals(get(i))), or -1 if there is no such index.
+
+Parameters:
+    o element to search for
+Returns:
+    the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element
+
+408
+
+409
+
+    public int  [More ...] indexOf(Object o) {
+
+410
+
+        int index = 0;
+
+411
+
+        if (o==null) {
+
+412
+
+            for (Entry e = header.next; e != header; e = e.next) {
+
+413
+
+                if (e.element==null)
+
+414
+
+                    return index;
+
+415
+
+                index++;
+
+416
+
+            }
+
+417
+
+        } else {
+
+418
+
+            for (Entry e = header.next; e != header; e = e.next) {
+
+419
+
+                if (o.equals(e.element))
+
+420
+
+                    return index;
+
+421
+
+                index++;
+
+422
+
+            }
+
+423
+
+        }
+
+424
+
+        return -1;
+
+425
+
+    }
+
+    
+
+Returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element. More formally, returns the highest index i such that (o==null ? get(i)==null : o.equals(get(i))), or -1 if there is no such index.
+
+Parameters:
+    o element to search for
+Returns:
+    the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element
+
+437
+
+438
+
+    public int  [More ...] lastIndexOf(Object o) {
+
+439
+
+        int index = size;
+
+440
+
+        if (o==null) {
+
+441
+
+            for (Entry e = header.previous; e != header; e = e.previous) {
+
+442
+
+                index--;
+
+443
+
+                if (e.element==null)
+
+444
+
+                    return index;
+
+445
+
+            }
+
+446
+
+        } else {
+
+447
+
+            for (Entry e = header.previous; e != header; e = e.previous) {
+
+448
+
+                index--;
+
+449
+
+                if (o.equals(e.element))
+
+450
+
+                    return index;
+
+451
+
+            }
+
+452
+
+        }
+
+453
+
+        return -1;
+
+454
+
+    }
+
+455
+
+456
+
+    // Queue operations.
+
+457
+
+
+    
+
+Retrieves, but does not remove, the head (first element) of this list.
+
+Returns:
+    the head of this list, or null if this list is empty
+Since:
+    1.5
+
+462
+
+463
+
+    public E  [More ...] peek() {
+
+464
+
+        if (size==0)
+
+465
+
+            return null;
+
+466
+
+        return getFirst();
+
+467
+
+    }
+
+    
+
+Retrieves, but does not remove, the head (first element) of this list.
+
+Returns:
+    the head of this list
+Throws:
+    NoSuchElementException if this list is empty
+Since:
+    1.5
+
+474
+
+475
+
+    public E  [More ...] element() {
+
+476
+
+        return getFirst();
+
+477
+
+    }
+
+    
+
+Retrieves and removes the head (first element) of this list
+
+Returns:
+    the head of this list, or null if this list is empty
+Since:
+    1.5
+
+483
+
+484
+
+    public E  [More ...] poll() {
+
+485
+
+        if (size==0)
+
+486
+
+            return null;
+
+487
+
+        return removeFirst();
+
+488
+
+    }
+
+    
+
+Retrieves and removes the head (first element) of this list.
+
+Returns:
+    the head of this list
+Throws:
+    NoSuchElementException if this list is empty
+Since:
+    1.5
+
+496
+
+497
+
+    public E  [More ...] remove() {
+
+498
+
+        return removeFirst();
+
+499
+
+    }
+
+    
+
+Adds the specified element as the tail (last element) of this list.
+
+Parameters:
+    e the element to add
+Returns:
+    true (as specified by Queue.offer(java.lang.Object))
+Since:
+    1.5
+
+507
+
+508
+
+    public boolean  [More ...] offer(E e) {
+
+509
+
+        return add(e);
+
+510
+
+    }
+
+511
+
+512
+
+    // Deque operations
+
+513
+
+    
+
+Inserts the specified element at the front of this list.
+
+Parameters:
+    e the element to insert
+Returns:
+    true (as specified by Deque.offerFirst(java.lang.Object))
+Since:
+    1.6
+
+519
+
+520
+
+    public boolean  [More ...] offerFirst(E e) {
+
+521
+
+        addFirst(e);
+
+522
+
+        return true;
+
+523
+
+    }
+
+    
+
+Inserts the specified element at the end of this list.
+
+Parameters:
+    e the element to insert
+Returns:
+    true (as specified by Deque.offerLast(java.lang.Object))
+Since:
+    1.6
+
+531
+
+532
+
+    public boolean  [More ...] offerLast(E e) {
+
+533
+
+        addLast(e);
+
+534
+
+        return true;
+
+535
+
+    }
+
+    
+
+Retrieves, but does not remove, the first element of this list, or returns null if this list is empty.
+
+Returns:
+    the first element of this list, or null if this list is empty
+Since:
+    1.6
+
+544
+
+545
+
+    public E  [More ...] peekFirst() {
+
+546
+
+        if (size==0)
+
+547
+
+            return null;
+
+548
+
+        return getFirst();
+
+549
+
+    }
+
+    
+
+Retrieves, but does not remove, the last element of this list, or returns null if this list is empty.
+
+Returns:
+    the last element of this list, or null if this list is empty
+Since:
+    1.6
+
+558
+
+559
+
+    public E  [More ...] peekLast() {
+
+560
+
+        if (size==0)
+
+561
+
+            return null;
+
+562
+
+        return getLast();
+
+563
+
+    }
+
+    
+
+Retrieves and removes the first element of this list, or returns null if this list is empty.
+
+Returns:
+    the first element of this list, or null if this list is empty
+Since:
+    1.6
+
+572
+
+573
+
+    public E  [More ...] pollFirst() {
+
+574
+
+        if (size==0)
+
+575
+
+            return null;
+
+576
+
+        return removeFirst();
+
+577
+
+    }
+
+    
+
+Retrieves and removes the last element of this list, or returns null if this list is empty.
+
+Returns:
+    the last element of this list, or null if this list is empty
+Since:
+    1.6
+
+586
+
+587
+
+    public E  [More ...] pollLast() {
+
+588
+
+        if (size==0)
+
+589
+
+            return null;
+
+590
+
+        return removeLast();
+
+591
+
+    }
+
+    
+
+Pushes an element onto the stack represented by this list. In other words, inserts the element at the front of this list.
+
+This method is equivalent to addFirst(java.lang.Object).
+
+Parameters:
+    e the element to push
+Since:
+    1.6
+
+601
+
+602
+
+    public void  [More ...] push(E e) {
+
+603
+
+        addFirst(e);
+
+604
+
+    }
+
+    
+
+Pops an element from the stack represented by this list. In other words, removes and returns the first element of this list.
+
+This method is equivalent to removeFirst().
+
+Returns:
+    the element at the front of this list (which is the top of the stack represented by this list)
+Throws:
+    NoSuchElementException if this list is empty
+Since:
+    1.6
+
+616
+
+617
+
+    public E  [More ...] pop() {
+
+618
+
+        return removeFirst();
+
+619
+
+    }
+
+    
+
+Removes the first occurrence of the specified element in this list (when traversing the list from head to tail). If the list does not contain the element, it is unchanged.
+
+Parameters:
+    o element to be removed from this list, if present
+Returns:
+    true if the list contained the specified element
+Since:
+    1.6
+
+629
+
+630
+
+    public boolean  [More ...] removeFirstOccurrence(Object o) {
+
+631
+
+        return remove(o);
+
+632
+
+    }
+
+    
+
+Removes the last occurrence of the specified element in this list (when traversing the list from head to tail). If the list does not contain the element, it is unchanged.
+
+Parameters:
+    o element to be removed from this list, if present
+Returns:
+    true if the list contained the specified element
+Since:
+    1.6
+
+642
+
+643
+
+    public boolean  [More ...] removeLastOccurrence(Object o) {
+
+644
+
+        if (o==null) {
+
+645
+
+            for (Entry<E> e = header.previous; e != header; e = e.previous) {
+
+646
+
+                if (e.element==null) {
+
+647
+
+                    remove(e);
+
+648
+
+                    return true;
+
+649
+
+                }
+
+650
+
+            }
+
+651
+
+        } else {
+
+652
+
+            for (Entry<E> e = header.previous; e != header; e = e.previous) {
+
+653
+
+                if (o.equals(e.element)) {
+
+654
+
+                    remove(e);
+
+655
+
+                    return true;
+
+656
+
+                }
+
+657
+
+            }
+
+658
+
+        }
+
+659
+
+        return false;
+
+660
+
+    }
+
+    
+
+Returns a list-iterator of the elements in this list (in proper sequence), starting at the specified position in the list. Obeys the general contract of List.listIterator(int).
+
+The list-iterator is fail-fast: if the list is structurally modified at any time after the Iterator is created, in any way except through the list-iterator's own remove or add methods, the list-iterator will throw a ConcurrentModificationException. Thus, in the face of concurrent modification, the iterator fails quickly and cleanly, rather than risking arbitrary, non-deterministic behavior at an undetermined time in the future.
+
+Parameters:
+    index index of the first element to be returned from the list-iterator (by a call to next)
+Returns:
+    a ListIterator of the elements in this list (in proper sequence), starting at the specified position in the list
+Throws:
+    java.lang.IndexOutOfBoundsException
+See also:
+    List.listIterator(int)
+
+682
+
+683
+
+    public ListIterator<E>  [More ...] listIterator(int index) {
+
+684
+
+        return new ListItr(index);
+
+685
+
+    }
+
+686
+
+687
+
+    private class  [More ...] ListItr implements ListIterator<E> {
+
+688
+
+        private Entry<E> lastReturned = header;
+
+689
+
+        private Entry<E> next;
+
+690
+
+        private int nextIndex;
+
+691
+
+        private int expectedModCount = modCount;
+
+692
+
+693
+
+         [More ...] ListItr(int index) {
+
+694
+
+            if (index < 0 || index > size)
+
+695
+
+                throw new IndexOutOfBoundsException("Index: "+index+
+
+696
+
+                                                    ", Size: "+size);
+
+697
+
+            if (index < (size >> 1)) {
+
+698
+
+                next = header.next;
+
+699
+
+                for (nextIndex=0; nextIndex<index; nextIndex++)
+
+700
+
+                    next = next.next;
+
+701
+
+            } else {
+
+702
+
+                next = header;
+
+703
+
+                for (nextIndex=size; nextIndex>index; nextIndex--)
+
+704
+
+                    next = next.previous;
+
+705
+
+            }
+
+706
+
+        }
+
+707
+
+708
+
+        public boolean  [More ...] hasNext() {
+
+709
+
+            return nextIndex != size;
+
+710
+
+        }
+
+711
+
+712
+
+        public E  [More ...] next() {
+
+713
+
+            checkForComodification();
+
+714
+
+            if (nextIndex == size)
+
+715
+
+                throw new NoSuchElementException();
+
+716
+
+717
+
+            lastReturned = next;
+
+718
+
+            next = next.next;
+
+719
+
+            nextIndex++;
+
+720
+
+            return lastReturned.element;
+
+721
+
+        }
+
+722
+
+723
+
+        public boolean  [More ...] hasPrevious() {
+
+724
+
+            return nextIndex != 0;
+
+725
+
+        }
+
+726
+
+727
+
+        public E  [More ...] previous() {
+
+728
+
+            if (nextIndex == 0)
+
+729
+
+                throw new NoSuchElementException();
+
+730
+
+731
+
+            lastReturned = next = next.previous;
+
+732
+
+            nextIndex--;
+
+733
+
+            checkForComodification();
+
+734
+
+            return lastReturned.element;
+
+735
+
+        }
+
+736
+
+737
+
+        public int  [More ...] nextIndex() {
+
+738
+
+            return nextIndex;
+
+739
+
+        }
+
+740
+
+741
+
+        public int  [More ...] previousIndex() {
+
+742
+
+            return nextIndex-1;
+
+743
+
+        }
+
+744
+
+745
+
+        public void  [More ...] remove() {
+
+746
+
+            checkForComodification();
+
+747
+
+            Entry<E> lastNext = lastReturned.next;
+
+748
+
+            try {
+
+749
+
+                LinkedList.this.remove(lastReturned);
+
+750
+
+            } catch (NoSuchElementException e) {
+
+751
+
+                throw new IllegalStateException();
+
+752
+
+            }
+
+753
+
+            if (next==lastReturned)
+
+754
+
+                next = lastNext;
+
+755
+
+            else
+
+756
+
+                nextIndex--;
+
+757
+
+            lastReturned = header;
+
+758
+
+            expectedModCount++;
+
+759
+
+        }
+
+760
+
+761
+
+        public void  [More ...] set(E e) {
+
+762
+
+            if (lastReturned == header)
+
+763
+
+                throw new IllegalStateException();
+
+764
+
+            checkForComodification();
+
+765
+
+            lastReturned.element = e;
+
+766
+
+        }
+
+767
+
+768
+
+        public void  [More ...] add(E e) {
+
+769
+
+            checkForComodification();
+
+770
+
+            lastReturned = header;
+
+771
+
+            addBefore(e, next);
+
+772
+
+            nextIndex++;
+
+773
+
+            expectedModCount++;
+
+774
+
+        }
+
+775
+
+776
+
+        final void  [More ...] checkForComodification() {
+
+777
+
+            if (modCount != expectedModCount)
+
+778
+
+                throw new ConcurrentModificationException();
+
+779
+
+        }
+
+780
+
+    }
+
+781
+
+782
+
+    private static class  [More ...] Entry<E> {
+
+783
+
+        E element;
+
+784
+
+        Entry<E> next;
+
+785
+
+        Entry<E> previous;
+
+786
+
+787
+
+         [More ...] Entry(E element, Entry<E> next, Entry<E> previous) {
+
+788
+
+            this.element = element;
+
+789
+
+            this.next = next;
+
+790
+
+            this.previous = previous;
+
+791
+
+        }
+
+792
+
+    }
+
+793
+
+794
+
+    private Entry<E>  [More ...] addBefore(E e, Entry<E> entry) {
+
+795
+
+        Entry<E> newEntry = new Entry<E>(e, entry, entry.previous);
+
+796
+
+        newEntry.previous.next = newEntry;
+
+797
+
+        newEntry.next.previous = newEntry;
+
+798
+
+        size++;
+
+799
+
+        modCount++;
+
+800
+
+        return newEntry;
+
+801
+
+    }
+
+802
+
+803
+
+    private E  [More ...] remove(Entry<E> e) {
+
+804
+
+        if (e == header)
+
+805
+
+            throw new NoSuchElementException();
+
+806
+
+807
+
+        E result = e.element;
+
+808
+
+        e.previous.next = e.next;
+
+809
+
+        e.next.previous = e.previous;
+
+810
+
+        e.next = e.previous = null;
+
+811
+
+        e.element = null;
+
+812
+
+        size--;
+
+813
+
+        modCount++;
+
+814
+
+        return result;
+
+815
+
+    }
+
+    
+
+Since:
+    1.6
+
+819
+
+820
+
+    public Iterator<E>  [More ...] descendingIterator() {
+
+821
+
+        return new DescendingIterator();
+
+822
+
+    }
+
+    
+
+Adapter to provide descending iterators via ListItr.previous
+
+824
+
+825
+
+    private class  [More ...] DescendingIterator implements Iterator {
+
+826
+
+        final ListItr itr = new ListItr(size());
+
+827
+
+        public boolean  [More ...] hasNext() {
+
+828
+
+            return itr.hasPrevious();
+
+829
+
+        }
+
+830
+
+        public E  [More ...] next() {
+
+831
+
+            return itr.previous();
+
+832
+
+        }
+
+833
+
+        public void  [More ...] remove() {
+
+834
+
+            itr.remove();
+
+835
+
+        }
+
+836
+
+    }
+
+    
+
+Returns a shallow copy of this LinkedList. (The elements themselves are not cloned.)
+
+Returns:
+    a shallow copy of this LinkedList instance
+
+843
+
+844
+
+    public Object  [More ...] clone() {
+
+845
+
+        LinkedList<E> clone = null;
+
+846
+
+        try {
+
+847
+
+            clone = (LinkedList<E>) super.clone();
+
+848
+
+        } catch (CloneNotSupportedException e) {
+
+849
+
+            throw new InternalError();
+
+850
+
+        }
+
+851
+
+852
+
+        // Put clone into "virgin" state
+
+853
+
+        clone.header = new Entry<E>(null, null, null);
+
+854
+
+        clone.header.next = clone.header.previous = clone.header;
+
+855
+
+        clone.size = 0;
+
+856
+
+        clone.modCount = 0;
+
+857
+
+858
+
+        // Initialize clone with our elements
+
+859
+
+        for (Entry<E> e = header.next; e != header; e = e.next)
+
+860
+
+            clone.add(e.element);
+
+861
+
+862
+
+        return clone;
+
+863
+
+    }
+
+    
+
+Returns an array containing all of the elements in this list in proper sequence (from first to last element).
+
+The returned array will be "safe" in that no references to it are maintained by this list. (In other words, this method must allocate a new array). The caller is thus free to modify the returned array.
+
+This method acts as bridge between array-based and collection-based APIs.
+
+Returns:
+    an array containing all of the elements in this list in proper sequence
+
+878
+
+879
+
+    public Object[]  [More ...] toArray() {
+
+880
+
+        Object[] result = new Object[size];
+
+881
+
+        int i = 0;
+
+882
+
+        for (Entry<E> e = header.next; e != header; e = e.next)
+
+883
+
+            result[i++] = e.element;
+
+884
+
+        return result;
+
+885
+
+    }
+
+    
+
+Returns an array containing all of the elements in this list in proper sequence (from first to last element); the runtime type of the returned array is that of the specified array. If the list fits in the specified array, it is returned therein. Otherwise, a new array is allocated with the runtime type of the specified array and the size of this list.
+
+If the list fits in the specified array with room to spare (i.e., the array has more elements than the list), the element in the array immediately following the end of the list is set to null. (This is useful in determining the length of the list only if the caller knows that the list does not contain any null elements.)
+
+Like the toArray() method, this method acts as bridge between array-based and collection-based APIs. Further, this method allows precise control over the runtime type of the output array, and may, under certain circumstances, be used to save allocation costs.
+
+Suppose x is a list known to contain only strings. The following code can be used to dump the list into a newly allocated array of String:
+
+     String[] y = x.toArray(new String[0]);
+
+Note that toArray(new Object[0]) is identical in function to toArray().
+
+Parameters:
+    a the array into which the elements of the list are to be stored, if it is big enough; otherwise, a new array of the same runtime type is allocated for this purpose.
+Returns:
+    an array containing the elements of the list
+Throws:
+    java.lang.ArrayStoreException if the runtime type of the specified array is not a supertype of the runtime type of every element in this list
+    java.lang.NullPointerException if the specified array is null
+
+924
+
+925
+
+    public <T> T[]  [More ...] toArray(T[] a) {
+
+926
+
+        if (a.length < size)
+
+927
+
+            a = (T[])java.lang.reflect.Array.newInstance(
+
+928
+
+                                a.getClass().getComponentType(), size);
+
+929
+
+        int i = 0;
+
+930
+
+        Object[] result = a;
+
+931
+
+        for (Entry<E> e = header.next; e != header; e = e.next)
+
+932
+
+            result[i++] = e.element;
+
+933
+
+934
+
+        if (a.length > size)
+
+935
+
+            a[size] = null;
+
+936
+
+937
+
+        return a;
+
+938
+
+    }
+
+939
+
+940
+
+    private static final long serialVersionUID = 876323262645176354L;
+
+    
+
+Save the state of this LinkedList instance to a stream (that is, serialize it).
+
+SerialData:
+    The size of the list (the number of elements it contains) is emitted (int), followed by all of its elements (each an Object) in the proper order.
+
+949
+
+950
+
+    private void  [More ...] writeObject(java.io.ObjectOutputStream s)
+
+951
+
+        throws java.io.IOException {
+
+952
+
+        // Write out any hidden serialization magic
+
+953
+
+        s.defaultWriteObject();
+
+954
+
+955
+
+        // Write out size
+
+956
+
+        s.writeInt(size);
+
+957
+
+958
+
+        // Write out all elements in the proper order.
+
+959
+
+        for (Entry e = header.next; e != header; e = e.next)
+
+960
+
+            s.writeObject(e.element);
+
+961
+
+    }
+
+    
+
+Reconstitute this LinkedList instance from a stream (that is deserialize it).
+
+966
+
+967
+
+    private void  [More ...] readObject(java.io.ObjectInputStream s)
+
+968
+
+        throws java.io.IOException, ClassNotFoundException {
+
+969
+
+        // Read in any hidden serialization magic
+
+970
+
+        s.defaultReadObject();
+
+971
+
+972
+
+        // Read in size
+
+973
+
+        int size = s.readInt();
+
+974
+
+975
+
+        // Initialize header
+
+976
+
+        header = new Entry<E>(null, null, null);
+
+977
+
+        header.next = header.previous = header;
+
+978
+
+979
+
+        // Read in all elements in the proper order.
+
+980
+
+        for (int i=0; i<size; i++)
+
+981
+
+            addBefore((E)s.readObject(), header);
+
+982
+
+    }
+
+983
+
+}

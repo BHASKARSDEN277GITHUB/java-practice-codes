@@ -1,0 +1,6 @@
+
+interface testInterface {
+	int a ;
+}
+	
+

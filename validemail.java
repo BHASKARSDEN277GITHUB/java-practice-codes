@@ -9,7 +9,7 @@ public class validemail
 	{
 		Scanner input = new Scanner(System.in);	
 		String str = input.nextLine() ;
-		Pattern p1 = Pattern.compile("@\\w+[.]\\w+") ;
+		Pattern p1 = Pattern.compile(".+@\\w+[.]\\w+") ;
 		Matcher m1 = p1.matcher(str) ;
 		int i = m1.groupCount() ;
 		System.out.println(i) ;

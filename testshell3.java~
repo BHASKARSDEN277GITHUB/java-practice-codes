@@ -1,0 +1,103 @@
+import java.util.* ;
+import java.lang.* ;
+import java.io.* ;
+
+public class testshell3
+{
+	public static class myshell 
+	{
+		private static String command ; //to store the command ..
+		BufferedReader input = new BufferedReader(new InputStreamReader(System.in)) ; //to get the input from console ..
+		private static String current_directory_path ="/" ;
+		private static final String prefix =  "myshell" ;
+		public static String shellname =  prefix+ "-"+ current_directory_path + ">" ; //prefix = myshell constant .. and suffix will vary depending upon deirectory name ..
+		//constructor , no arguments ..
+		private myshell()
+		{
+		//System.out.print(this.shellname) ;	
+			
+		}
+		
+		//to read input command ..
+		public void GetCommand() throws IOException
+		{
+			this.command = input.readLine();
+		}
+		//to check command ..
+		public void CheckCommand() throws IOException
+		{
+			String[] str = this.command.split(" ");
+			if(this.command.equals(""))
+			{//System.out.print("myshell >") ;			
+			this.GetCommand() ;}
+			
+			else if (this.command.equals("ls"))
+			List() ;
+			
+			else if(this.command.equals("cd"))
+			basedirectory() ;
+			
+			else if(str[0].equals("find"))
+			find() ;
+			
+			else if(this.command.equals("exit"))
+			System.exit(0) ; //to exit the shell 
+
+		}
+
+		//List() method to list the files of current Directory ..
+		public void List()
+		{  	
+			File[] filelist ;
+			File directory = new File(current_directory_path) ; //creating a reference for current directory ..
+			filelist = directory.listFiles() ; //refferring list of files from filelist array ..
+			for(int i = 0;i<filelist.length;i++)
+			{
+				System.out.print("\t"+filelist[i].getName());
+			}
+			System.out.println() ;
+		}
+
+		//basedirectory() method to go to base directory ..
+		// executes cd command ..
+		public void basedirectory()	
+		{
+  			current_directory_path = "/" ;
+
+		}
+		//to find a file in current directory ..
+		public void find()
+		{       String[] str =this.command.split(" ") ;
+			
+			//System.out.print(str[1]) ;
+			File directory = new File(current_directory_path); //creating refrnce to directory ..
+			File[] filelist ;
+			filelist = directory.listFiles() ;
+			int i =0 ;
+			int count=0 ;
+			for(i=0;i<filelist.length;i++)		
+			{
+				if(filelist[i].getName().startsWith((str[1])))
+				{System.out.println(filelist[i].getName()) ;
+				count++ ;	
+				}
+			}
+			if(count==0)
+			System.out.println("No file found ") ;
+		}
+	}
+
+
+	public static void main(String[] args) throws IOException
+	{
+		myshell shell1 = new myshell() ;
+				
+		while(true)
+			{
+				System.out.print(shell1.shellname) ;
+				shell1.GetCommand() ; //read command ..
+				shell1.CheckCommand() ; //check the input command ..
+			}
+	}			
+}	
+		 

@@ -15,6 +15,7 @@ public class printpdf
 		
 		File[] filelist = directory.listFiles() ;
 		String filename ;
+		if(filelist !=null) {
 		for(int i =0;i<filelist.length;i++)
 		{ 	filename = filelist[i].getName() ;
 			if(filelist[i].isFile() && (filename.endsWith(".pdf")))
@@ -30,6 +31,7 @@ public class printpdf
 				display_path(path1) ;
 			
 			}
+		}
 		}
 	}
 }

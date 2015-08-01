@@ -1,0 +1,55 @@
+import java.lang.* ;
+import java.util.* ;
+
+public  class synch1
+{
+
+	public static class loop
+	{
+	int i ;
+	public loop(){}
+	public  void printcounting()
+	{       int j = 1 ;
+		int count=0;
+		while( count<100)
+		{       j=j*i;
+			System.out.println(j);
+			count++ ;
+		}
+		
+	}
+	public synchronized void seti(int value)
+	{
+		i = value ;
+		System.out.println("value set");
+		
+	}
+
+	}
+	
+public static class thread extends Thread
+{	
+	
+	
+	public  thread() {}
+	public void run()
+	{
+	
+		loop a = new loop();
+		loop b = new loop() ;
+		a.seti(2);
+		b.seti(3);
+		a.printcounting() ;
+		b.printcounting() ;
+	}
+	
+}
+
+
+	public static void main(String[] args)
+	{
+		thread x = new thread() ;
+		x.start();
+	}
+
+}

@@ -1,0 +1,26 @@
+import java.io.* ;
+import java.lang.* ;
+import java.util.* ;
+
+public class linebyline
+{
+	public static  void main(String[] args)
+	{	try{
+		File source = new File("check1.txt") ;
+		File destination = new File("dump1.txt") ;
+		destination.createNewFile() ;
+		FileOutputStream writer3 = new FileOutputStream(destination) ;
+		Scanner sc = new Scanner(source).useDelimiter("\\n") ;
+		while(sc.hasNext())
+		{
+			String str9 = sc.nextString() ;
+			String str10 = str9 + "\n" ;
+			System.out.print(str10) ;
+			byte[] arraynew = str9.getBytes() ;
+			
+			writer3.write(arraynew) ;
+		}
+		}
+		catch(Exception e){}
+	}
+}

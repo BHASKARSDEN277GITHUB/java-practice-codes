@@ -1,0 +1,55 @@
+
+public class sync {
+	public static void main(String [] str) throws InterruptedException
+	{
+		loop l = new loop();
+count c = new count(l, 1);
+c.start();
+
+count c1 = new count(l, 2);
+c1.start();
+
+
+
+	}
+	
+	
+
+
+}
+
+class count extends Thread
+{  loop c;
+	int t;
+	count(loop x,int y)
+	{
+		c = x;
+		t = y;
+	}
+	
+	
+public void run()
+{System.out.println("thread has started");
+	c.set(t);
+	
+	
+
+}
+}
+
+class loop
+{
+	int i;
+	synchronized void printcounting(){
+	while(i<1000)
+	{
+	System.out.println(i);
+	i++;
+	}}
+	synchronized void set(int z)
+	{
+		i = z;
+		System.out.println("setting the value");
+		printcounting();
+	}
+}

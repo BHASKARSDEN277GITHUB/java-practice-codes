@@ -1,0 +1,13 @@
+import java.lang.* ;
+import java.util.* ;
+
+public class check
+{
+	public static void main(String[] args)
+	{
+		char character = 'h';
+		
+		int b = character^character ;
+		System.out.println(b) ;
+	}
+}

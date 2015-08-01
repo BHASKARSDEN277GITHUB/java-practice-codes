@@ -1,0 +1,32 @@
+<spanitemprop="name">ZackSnyder</span>
+
+patternfound	<aclass=""href="/celebrity/zack_snyder/"itemprop="url"><spanitemprop="name">ZackSnyder</span></a>
+
+
+<labelclass="subtle">DirectedBy:</label>
+
+
+
+
+
+<pitemprop="director"itemscopeitemtype="http://schema.org/Person">
+					<span>
+
+
+
+
+
+
+
+
+
+
+
+<aclass=""href="/celebrity/zack_snyder/"itemprop="url"><spanitemprop="name">ZackSnyder</span></a>
+					</span>
+			
+				<p>
+
+
+
+"<\\w\\s+\\w+=\\W\\w+\\W\\s+\\w+\\s+\\w+=\\W\\w+://.*>\\s*\\n*\\s*<span>\\s*\\n*<aclass=..href=./\\w+/\\w+\\W*\\w+*/.\\s+\\w+=.url.><\\w+\\s\\w+=.\\w+.>\\w+\\s+\\w+</\\w+>"

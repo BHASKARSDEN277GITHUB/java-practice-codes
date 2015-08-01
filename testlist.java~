@@ -1,0 +1,12 @@
+public class testlist
+{
+	public class mylinkedlist<T>
+	{
+		T value ;  // to store value of linkedlist element ..
+		T reference ; //refernece to next value ..
+		private mylinkedlist()
+		{
+			this.reference = null ;
+		}
+	}
+}

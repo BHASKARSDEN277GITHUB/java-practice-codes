@@ -1,0 +1,15 @@
+import java.io.* ;
+import java.lang.* ;
+import java.util.* ;
+
+public class bufferfileread
+{
+	public static void main(String[] args)
+	{	try{
+		BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
+		String str = b.readLine();
+		System.out.println(str);
+		}
+		catch(Exception e){}
+	}
+}

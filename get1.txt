@@ -1,0 +1,9638 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+<html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head prefix="og: http://ogp.me/ns# flixstertomatoes: http://ogp.me/ns/apps/flixstertomatoes#">
+
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+    <meta property="fb:app_id" content="326803741017" />
+	<meta property="og:type" content="video.movie" />
+    <meta property="og:image:width" content="800" />
+    
+	<meta property="og:description" content="A tense, gripping thriller, A Hijacking avoids action movie cliches and instead creates a palpable sense of dread by mixing gritty realism with atmospheric beauty." />
+	<meta property="video:release_date" content="2013-06-21" />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+	<link rel="canonical" href="http://www.rottentomatoes.com/m/a_hijacking/" itemprop="url"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+ 	
+
+
+
+<script type='text/javascript'>
+googletag.cmd = googletag.cmd || [];
+var gads = document.createElement('script');
+gads.type = 'text/javascript';
+gads.src = (useSSL ? 'https:' : 'http:') + 
+var node = document.getElementsByTagName('script')[0];
+})();
+
+
+
+
+
+	// Log document.ready
+
+	if (typeof console === "undefined" || typeof console.log === "undefined") {
+		console.log = function(msg){};
+	}	
+	RT = window.RT || {};
+	RT.getCookie = function(c) {
+		var a = d + c.length + 1;
+			return null
+		if (d == -1) {
+		}
+		if (b == -1) {
+		}
+	};
+	
+	RT.setCookie = function(c, e, a, h, d, g) {
+		b.setTime(b.getTime());
+			a = a * 1000 * 60 * 60 * 24
+		var f = new Date(b.getTime() + (a));
+				+ ((a) ? ";expires=" + f.toGMTString() : "")
+				+ ((g) ? ";secure" : "")
+	window.setCookie = RT.setCookie;
+	RT.deleteCookie = function(a, c, b) {
+			document.cookie = a + "=" + ((c) ? ";path=" + c : "")
+					+ ";expires=Thu, 01-Jan-1970 00:00:01 GMT"
+	}
+	
+		return (new RegExp("(?:^|;\\s*)" + escape(sKey).replace(/[\-\.\+\*]/g, "\$&") + "\\s*\\=")).test(document.cookie); 
+	
+	RT.interstitialShown = $.Deferred();
+	RT.social_init = new $.Deferred(); // See http://trac.flixsterqa.com/wiki/Dev/header for detailed explanation of these 4 deferreds 
+	RT.fb_connected = new $.Deferred(); 
+
+	window.social_init = RT.social_init;
+	window.fb_connected = RT.fb_connected;
+	RT.StaticHost = 'http://images.rottentomatoescdn.com';
+	
+	RT.Backbone = {};
+	RT.Backbone.Models={};
+	
+	/* Global actions to be taken after document.ready */
+	    // Activate component framework unless specifically disabled
+	});
+
+
+ 
+	var _qevents = _qevents || [];
+	var qcsegments = decodeURIComponent(RT.getCookie("qcsegments"));
+	function qc_results(result) {
+		var quantSegs="";
+			quantSegs += result.segments[i].id; 
+			if (i<result.segments.length-1) { 
+				qcsegments += ";";
+		}	
+		setCookie("qcsegments",qcsegments,90,"/");
+</script>
+<script type="text/javascript" src="http://pixel.quantserve.com/api/segments.json?a=p-0fuRlG_jy3lfA&callback=qc_results" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _gaq = _gaq || [['_setAccount', 'UA-2265251-1']];
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+        ['_setAllowHash', false],  
+          
+       
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		console.log("Session Type: Anon");
+		_gaq.push(['_trackEvent', 'Session Type', 'Anon', undefined, undefined, true]);
+			//console.log("[sharedSessionTracking] Login Platform Code:" + RT.LoginStatusModel.get("loginPlatformCode"));
+			//console.log("[sharedSessionTracking] Email Status ID:" + RT.LoginStatusModel.get("emailStatusId"));
+
+			
+			if (sessionType == 'Unset') {
+			}
+			var emailStatus = "Init";
+			if ($.isNumeric(emailStatusId)) {
+					emailStatus = "No Email"; 
+				else {
+				}
+			else {
+			}
+			var customVarText = sessionType + ' - ' + loginPlatform + ' (' + emailStatus + ')';
+			_gaq.push(['_setCustomVar', 1, 'Session Type', customVarText, 2]);
+		});	
+  
+
+<script>
+    
+    
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+
+
+<div id="emptyPlaceholder"></div> 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+RT.ads.push("overlay_oop");
+	
+	var slot=googletag.defineOutOfPageSlot('/6327/rt.movie/prestitial', 'overlay_oop')
+	
+		.addService(googletag.pubads())
+	
+	
+	
+	
+	
+</script>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>#skin_ad { height:0px !important; }</style>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+RT.ads.push("skin_ad");
+	
+	
+	
+		.addService(googletag.pubads())
+	
+	
+	
+	
+    slot.oldRenderEnded = slot.renderEnded;
+    	slot.oldRenderEnded();
+    	wrapper.css("height","").css("width","");
+    	
+    
+});
+
+
+
+
+
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="fb-root"></div>
+<script>
+        FB.init({
+            status: true,
+            xfbml: true,
+            channelUrl: "http://www.rottentomatoes.com/facebook/channel.html"
+
+        fb_ready.resolve();
+        FB.Event.subscribe('auth.statusChange', function(response) {
+            if(response.status == "connected"){
+                // Talk to Peter or Mike before changing. We must ensure the first AJAX call after auth.statusChange is completed by
+                // Permanent fix is to ensure token-exchange is locked (backend ticket)
+                $.ajax( {
+                }).success( function(flx_response, status) {
+                		RT.LoginStatusModel.set(flx_response); 
+                        RT.social_init.resolve();
+                    });
+            }
+    };
+
+    (function(d, debug){
+        if (d.getElementById(id)) {return;}
+        js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+    }(document, /*debug*/ false));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Async loading of Twitter
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Async loading of plusone.js
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(function (w, d, load) {
+ first = d.getElementsByTagName('SCRIPT')[0],
+ i = 0,
+   for (i = 0; i < n; i = i + 1) {
+     script.type = 'text/javascript';
+     script.src = load[i];
+   }
+ if (w.attachEvent) {
+ } else {
+ }
+ ['//assets.pinterest.com/js/pinit.js']
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+_comscore.push({ c1: "2", c2: "3000013" });
+(function() {   
+  s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";    
+})();
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=3000013&cv=2.0&cj=1" /></noscript>
+
+
+
+
+	
+	
+	<div class="headerbackground"></div>
+	<div id="top_header_bar" class="clearfix">
+        
+		    
+		
+			<span>We're using Facebook to personalize your experience.</span><a class="learnmore_href" href="#">Learn More</a>
+
+
+		<div id="header-login-block" class="clearfix"> 			
+
+        </div>
+
+		    <li class="no-js">
+                    <li class="media_block_content subnav_items">
+                            <li><a id="header-profile-link" href="#">Profile</a></li> 
+                            <li><a id="header-community-link" href="/community/">Community</a></li>      
+                            <li><a id="header-account-link" href="#">Account</a></li> 
+                            <li><a id="header-existing-link" href="/logout/">Existing RT Member?</a></li>
+                            <li><a id="header-logout-link" href="/logout/">Logout</a></li> 
+                            <li><a id="header-disable-link" href="#">Disable</a></li>               
+                    </li>
+                                
+                    <a id="header-user-link" href="#">
+                        <span class="user-name"></span>
+                    </a>                 
+	       </li>
+
+	<script>
+	    var header = $("#top_header_bar");
+	    header.data("view", headerView);
+	
+		$.get("/home/wtsbar/").done(function(data){
+		});
+	</script>
+	
+		<a class="rt-logo " href="/">Rotten Tomatoes</a>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="searchBar">
+        <fieldset comp="Autocomplete" tabindex="-1">
+            	<input sub="input" type="text" name="search" onblur="this.parentNode.parentNode.className='';" onfocus="this.parentNode.parentNode.className='selected'; if (value == 'ZIP Code or City, State' || value == 'Search movies, actors, critics') { value ='' }" id="mini_searchbox" value="Search movies, actors, critics" defaulttext="Search movies, actors, critics"  name="search" gtbfieldid="27" autocomplete="off" />
+            </div>
+            <input type="hidden" value="rt" name="sitesearch"/>
+    </form>
+</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+	
+			
+				
+	        <li class="no-js">
+        			<li>
+				        	<li><a href="/movie/box-office/">Box Office</a></li>
+				        	<li><a href="/movie/upcoming/">Upcoming</a></li>
+				        	<li><a href="/movie/certified-fresh/">Certified Fresh</a></li>
+				        	<li><a href="/trailers/">Trailers</a></li>
+			       		</ul>
+	       			
+		       			<h4>Opening this week</h4>
+			       			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+    
+	    
+	    
+    
+
+</a><p>
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/monsters_university/"  class="" >Monsters University</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Fresh" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+tiny fresh"></span><span class="tMeterScore">76%</span>
+        
+	
+			       			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+    
+	    
+	    
+    
+
+</a><p>
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/world-war-z/"  class="" >World War Z</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Fresh" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+tiny fresh"></span><span class="tMeterScore">68%</span>
+        
+	
+			       			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+    
+	    
+	    
+    
+
+</a><p>
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/the_bling_ring_2013/"  class="" >The Bling Ring</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">58%</span>
+        
+	
+			       			
+		       		</li>
+	       		<h2 class="menu_label"><a href="/">Movies <span class="icon dropdown_arrows"></span></a></h2>
+	 		 
+	        	<ul class="subnav dvd">
+			        	<ul class="subnav_items">
+							<li><a href="/dvd/new_releases.php" >New Releases</a></li>
+							<li><a href="/dvd/current_releases.php" >Current Releases</a></li>
+							<li><a href="/dvd/certified_fresh.php" >Certified Fresh</a></li>
+					</li>
+		       			<h4>New on DVD</h4>
+		       										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+    
+	    
+	    
+    
+
+</a><p>
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/jack_the_giant_slayer/"  class="" >Jack the Giant Slayer</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">52%</span>
+        
+	
+		       										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+    
+	    
+	    
+    
+
+</a><p>
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/21_and_over/"  class="" >21 And Over</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">26%</span>
+        
+	
+		       										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+    
+	    
+	    
+    
+
+</a><p>
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/movie_43/"  class="" >Movie 43</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">4%</span>
+        
+	
+		       					
+		       		
+				</ul>
+	        </li>
+	        	<ul class="subnav celebrities">
+			        	<ul class="subnav_items">
+			        	</ul>
+		       		<li class="subnav_extra">
+		       			<ul>											
+							
+			       				<li class="center">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/brad_pitt/"  title="Brad Pitt">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									</a>
+			       						
+
+
+
+
+
+
+
+
+
+
+
+			       							Brad Pitt
+			       					</p>
+		       				
+			       					
+
+
+
+
+
+
+
+
+
+
+
+										
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="Billy Crystal" src="http://content7.flixster.com/site/10/25/76/10257621_tmb.jpg" width="80" height="64"  /> 
+			       					<p>
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/billy_crystal/" >
+			       						</a>
+			       				</li>		       				
+			       				<li class="center">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/john_goodman/"  title="John Goodman">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									</a>
+			       						
+
+
+
+
+
+
+
+
+
+
+
+			       							John Goodman
+			       					</p>
+		       				
+		       		
+				</ul>
+	        </li>  
+	        <li class="no-js">
+	        		<li>
+							<li><a href="/features/">Features</a></li>
+							<li><a href="/news/">News</a></li>
+							<li class="smaller">COLUMNS:</li>
+							<li><a href="/news/columns/box_office">Box Office Guru</a></li>
+							<li><a href="/news/columns/digital_multiplex">Digital Multiplex</a></li>
+							<li><a href="/news/columns/parental_guidance">Parental Guidance</a></li>
+							<li><a href="/news/columns/rt_on_dvd">RT on DVD</a></li>
+							<li><a href="/news/columns/video_interviews">Video Interviews</a></li>
+			        	</ul>
+		       		<li class="subnav_extra">
+		       			<ul>
+								<li class="center">
+										<a href="/m/monsters_university/news/1927690/total_recall_john_goodmans_best_movies/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										</a>
+									<p><a href="/m/monsters_university/news/1927690/total_recall_john_goodmans_best_movies/">Total Recall</a></p>			
+							
+										
+											
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="Critics Consensus" src="http://content6.flixster.com/site/10/25/77/10257700_tmb.jpg" width="80" height="80"  />
+										
+								</li>
+		       			</ul>
+		       		</li>				        
+				<h2 class="menu_label"><a href="/news/">News <span class="icon dropdown_arrows"></span></a></h2>
+
+	        	<ul class="subnav critics">
+			        	<ul class="subnav_items">
+							<li><a href="/critics/sources.php">Publications List</a></li>
+							<li><a href="/findyourcritic/">Find Your Critic</a></li>
+			     	</li>
+		       			<h4>Spotlight</h4>
+			       			
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>			
+							
+		       		
+					</ul>
+	        </li> 
+		
+		
+	
+		
+</div>
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+(function() {
+  li.src = 'https://platform.stumbleupon.com/1/widgets.js';
+})();
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+RT.ads.push("leaderboard_top_ad");
+	
+	
+	
+		.addService(googletag.pubads())
+	
+	
+		.setTargeting("pos", "top")	
+	
+	
+    slot.oldRenderEnded = slot.renderEnded;
+    	slot.oldRenderEnded();
+    	wrapper.css("height","").css("width","");
+    	
+    
+});
+
+
+
+
+
+
+<div class="body_main " >
+	
+		<div id="movieListColumn" class="col col_267 col_first" >
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+		
+			
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_box " id="movies_sidebar"  style="padding:0px;">
+		
+			
+			
+		
+	</div>
+		
+	<ul class="nav nav-tabs">
+	  <li class="on-dvd-tab active" style="width:50%;"><a href="#on-dvd" data-toggle="tab"><span class="movies-tab-icon dvd"></span>On DVD</a></li>
+	
+		<div class="tab-pane fade " id="in-theaters">
+			
+					
+                        
+		                
+		                             
+		                             
+		                             
+		                             
+		                             
+		                             
+		                             
+		                             
+		                             
+		                             
+					
+																								
+				
+				<table class="movie_list opening">						
+					
+					
+					<tr data-movie-id="771238418" data-movie-json='{&#034;id&#034;:771238418,&#034;title&#034;:&#034;Monsters University&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;G&#034;,&#034;runtime&#034;:&#034;1 hr. 35 min.&#034;,&#034;synopsis&#034;:&#034;It doesn&amp;#039;t scale the heights of Pixar&amp;#039;s finest efforts, but Monsters University is still funny and thoughtful family entertainment for viewers of any age.&#034;,&#034;thumbnail&#034;:&#034;http://content6.flixster.com/movie/11/16/99/11169964_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Billy Crystal&#034;,&#034;id&#034;:&#034;162655707&#034;},{&#034;name&#034;:&#034;John Goodman&#034;,&#034;id&#034;:&#034;162655706&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+											
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					 					
+
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Fresh" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+tiny fresh"></span><span class="tMeterScore">68%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/world-war-z/"  class=""  sub="hover">World War Z</a>
+						<td class="right_col right">21/6</td>
+					
+					
+					
+					<tr data-movie-id="771270972" data-movie-json='{&#034;id&#034;:771270972,&#034;title&#034;:&#034;The Bling Ring&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;R&#034;,&#034;runtime&#034;:&#034;1 hr. 30 min.&#034;,&#034;synopsis&#034;:&#034;While it&amp;#039;s certainly timely and beautifully filmed, The Bling Ring suffers from director Sofia Coppola&amp;#039;s failure to delve beneath the surface of its shallow protagonists&amp;#039; real-life crimes.&#034;,&#034;thumbnail&#034;:&#034;http://content7.flixster.com/movie/11/17/12/11171213_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Emma Watson&#034;,&#034;id&#034;:&#034;162655378&#034;},{&#034;name&#034;:&#034;Leslie Mann&#034;,&#034;id&#034;:&#034;162664741&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+											
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					 					
+
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">51%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/maniac_2013/"  class=""  sub="hover">Maniac</a>
+						<td class="right_col right">21/6</td>
+					
+					
+					
+					<tr data-movie-id="771315311" data-movie-json='{&#034;id&#034;:771315311,&#034;title&#034;:&#034;A Hijacking&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;R&#034;,&#034;runtime&#034;:&#034;1 hr. 39 min.&#034;,&#034;synopsis&#034;:&#034;A tense, gripping thriller, A Hijacking avoids action movie cliches and instead creates a palpable sense of dread by mixing gritty realism with atmospheric beauty.&#034;,&#034;thumbnail&#034;:&#034;http://content6.flixster.com/movie/11/17/07/11170748_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Amalie Ihle Alstrup&#034;,&#034;id&#034;:&#034;770706032&#034;},{&#034;name&#034;:&#034;Johan Philip Asb�k&#034;,&#034;id&#034;:&#034;770704543&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+											
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					 					
+
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Fresh" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+tiny fresh"></span><span class="tMeterScore">65%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/unfinished_song/"  class=""  sub="hover">Unfinished Song</a>
+						<td class="right_col right">21/6</td>
+					
+					
+					
+					<tr data-movie-id="771315283" data-movie-json='{&#034;id&#034;:771315283,&#034;title&#034;:&#034;The Attack&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;R&#034;,&#034;runtime&#034;:&#034;1 hr. 42 min.&#034;,&#034;synopsis&#034;:&#034;Amin Jaafari (Ali Suliman, Paradise Now) is an Israeli Palestinian surgeon, fully assimilated into Tel Aviv society. He has a loving wife, an...&#034;,&#034;thumbnail&#034;:&#034;http://content7.flixster.com/movie/11/17/09/11170929_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Ali Suliman&#034;,&#034;id&#034;:&#034;162654965&#034;},{&#034;name&#034;:&#034;Reymond Amsellem&#034;,&#034;id&#034;:&#034;771079184&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+											
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					 					
+
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+		<span class="greyline right">&mdash;&mdash;</span>
+	</span></td>
+											
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+										
+				<div class="movie-list-more"><a href="/movie/in-theaters/">More...</a></div> 
+				<div style="margin:0px 8px;">		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="box_office_buzz_ad" style="height:0px; line-height:0px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+	
+	var slot=googletag.defineSlot('/6327/rt.movie/box_office_buzz', [[250,40]], 'box_office_buzz_ad')
+	
+	
+		.setTargeting("unit", "box_office_buzz")	
+	
+    
+	
+    slot.renderEnded = function(){
+    	var wrapper = $("#box_office_buzz_ad");
+    	  
+    };
+	
+</script>
+
+
+
+</div>
+			    </div>
+				<h4>Top Box Office</h4>					
+					
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">57%</span>
+        
+	
+						<td class="middle_col">
+                            
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/superman_man_of_steel/"  class=""  sub="hover">Man of Steel</a>							
+						<td class="right_col right">$116.6M</td>
+					
+                    
+					<tr data-movie-id="771303549" data-movie-json='{&#034;id&#034;:771303549,&#034;title&#034;:&#034;This Is the End&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;R&#034;,&#034;runtime&#034;:&#034;1 hr. 59 min.&#034;,&#034;synopsis&#034;:&#034;Energetic, self-deprecating performances and enough guffaw-inducing humor make up for the flaws in This Is the End loosely written script.&#034;,&#034;thumbnail&#034;:&#034;http://content9.flixster.com/movie/11/16/82/11168267_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;James Franco&#034;,&#034;id&#034;:&#034;162653202&#034;},{&#034;name&#034;:&#034;Jonah Hill&#034;,&#034;id&#034;:&#034;326297850&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">50%</span>
+        
+	
+						<td class="middle_col">
+                            
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/now_you_see_me/"  class=""  sub="hover">Now You See Me</a>							
+						<td class="right_col right">$11.0M</td>
+					
+                    
+					<tr data-movie-id="771246668" data-movie-json='{&#034;id&#034;:771246668,&#034;title&#034;:&#034;Fast &amp;amp; Furious 6&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;PG-13&#034;,&#034;runtime&#034;:&#034;2 hr. 10 min.&#034;,&#034;synopsis&#034;:&#034;With high-octane humor and terrific action scenes, Fast &amp;amp; Furious 6 builds upon the winning blockbuster formula that made Fast 5 a critical and commercial success.&#034;,&#034;thumbnail&#034;:&#034;http://content8.flixster.com/movie/11/16/92/11169222_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Vin Diesel&#034;,&#034;id&#034;:&#034;162652472&#034;},{&#034;name&#034;:&#034;Paul Walker&#034;,&#034;id&#034;:&#034;162654234&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">38%</span>
+        
+	
+						<td class="middle_col">
+                            
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/the_purge/"  class=""  sub="hover">The Purge</a>							
+						<td class="right_col right">$8.3M</td>
+					
+                    
+					<tr data-movie-id="771308218" data-movie-json='{&#034;id&#034;:771308218,&#034;title&#034;:&#034;The Internship&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;PG-13&#034;,&#034;runtime&#034;:&#034;1 hr. 59 min.&#034;,&#034;synopsis&#034;:&#034;The Internship weighs down Vince Vaughn and Owen Wilson&amp;#039;s comic charisma with a formulaic script and padded running time that leans heavily on its stars&amp;#039; easygoing interplay.&#034;,&#034;thumbnail&#034;:&#034;http://content9.flixster.com/movie/11/17/17/11171759_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Vince Vaughn&#034;,&#034;id&#034;:&#034;162652630&#034;},{&#034;name&#034;:&#034;Owen Wilson&#034;,&#034;id&#034;:&#034;162652836&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Fresh" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+tiny fresh"></span><span class="tMeterScore">62%</span>
+        
+	
+						<td class="middle_col">
+                            
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/epic_2013/"  class=""  sub="hover">Epic</a>							
+						<td class="right_col right">$6.3M</td>
+					
+                    
+					<tr data-movie-id="771190753" data-movie-json='{&#034;id&#034;:771190753,&#034;title&#034;:&#034;Star Trek Into Darkness&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;PG-13&#034;,&#034;runtime&#034;:&#034;2 hr. 9 min.&#034;,&#034;synopsis&#034;:&#034;Visually spectacular and suitably action packed, Star Trek Into Darkness is a rock-solid installment in the venerable sci-fi franchise, even if it&amp;#039;s not as fresh as its predecessor.&#034;,&#034;thumbnail&#034;:&#034;http://content7.flixster.com/movie/11/17/12/11171241_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Chris Pine&#034;,&#034;id&#034;:&#034;326393041&#034;},{&#034;name&#034;:&#034;Zachary Quinto&#034;,&#034;id&#034;:&#034;770678894&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">11%</span>
+        
+	
+						<td class="middle_col">
+                            
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/after_earth/"  class=""  sub="hover">After Earth</a>							
+						<td class="right_col right">$4.1M</td>
+					
+                    
+					<tr data-movie-id="771217285" data-movie-json='{&#034;id&#034;:771217285,&#034;title&#034;:&#034;Iron Man 3&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;PG-13&#034;,&#034;runtime&#034;:&#034;1 hr. 49 min.&#034;,&#034;synopsis&#034;:&#034;With the help of its charismatic lead, some impressive action sequences, and even a few surprises, Iron Man 3 is a witty, entertaining adventure and a strong addition to the Marvel canon.&#034;,&#034;thumbnail&#034;:&#034;http://content8.flixster.com/movie/11/17/05/11170594_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Robert Downey Jr.&#034;,&#034;id&#034;:&#034;162654529&#034;},{&#034;name&#034;:&#034;Gwyneth Paltrow&#034;,&#034;id&#034;:&#034;162653966&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+				<div class="movie-list-more"><a href="/movie/box-office/">More...</a></div>
+
+	                        
+			<h4>Coming Soon</h4>
+				<tbody>
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+		<span class="greyline right">&mdash;&mdash;</span>
+	</span></td>
+							
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+		<span class="greyline right">&mdash;&mdash;</span>
+	</span></td>
+							
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+		<span class="greyline right">&mdash;&mdash;</span>
+	</span></td>
+							
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					</tr>
+					
+					
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">56%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/im_so_excited/"  class=""  sub="hover">I'm So Excited!</a>
+						<td class="right_col right">28/6</td>
+					
+			</table>
+		</div>
+		<div class="tab-pane fade active in" id="on-dvd">
+			<table class="movie_list top_rentals">
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+				
+				
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+					</td>
+								
+            <div class="movie-list-more"><a href="/dvd/top-rentals/">More...</a></div>
+			<h4>New On DVD This Week</h4>
+				<tbody>
+					
+                    
+                    
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">52%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/jack_the_giant_slayer/"  class=""  sub="hover">Jack the Giant Slayer</a>
+					</tr>
+					
+					
+                    
+                    <tr data-movie-id="771304584" data-movie-json='{&#034;id&#034;:771304584,&#034;title&#034;:&#034;21 And Over&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;R&#034;,&#034;runtime&#034;:&#034;1 hr. 33 min.&#034;,&#034;synopsis&#034;:&#034;Though it strives to mimic The Hangover, 21 and Over is too predictable, too unabashedly profane, and too inconsistently funny to carry the torch.&#034;,&#034;thumbnail&#034;:&#034;http://content7.flixster.com/movie/11/16/75/11167561_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Miles Teller&#034;,&#034;id&#034;:&#034;771077409&#034;},{&#034;name&#034;:&#034;Skylar Astin&#034;,&#034;id&#034;:&#034;770797712&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					
+					
+                    
+                    
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">4%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/movie_43/"  class=""  sub="hover">Movie 43</a>
+					</tr>
+					
+					
+                    
+                    <tr data-movie-id="771321134" data-movie-json='{&#034;id&#034;:771321134,&#034;title&#034;:&#034;The Last Exorcism Part II&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;PG-13&#034;,&#034;runtime&#034;:&#034;1 hr. 28 min.&#034;,&#034;synopsis&#034;:&#034;Continuing where the first film left off, Nell Sweetzer (Ashley Bell) is found terrified and alone in rural Louisiana. Back in the relative safety of...&#034;,&#034;thumbnail&#034;:&#034;http://content7.flixster.com/movie/11/16/83/11168309_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Ashley Bell&#034;,&#034;id&#034;:&#034;770908595&#034;},{&#034;name&#034;:&#034;Julia Garner&#034;,&#034;id&#034;:&#034;771379397&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					
+					
+                    
+                    
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Fresh" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+tiny fresh"></span><span class="tMeterScore">67%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/stoker_2013/"  class=""  sub="hover">Stoker</a>
+					</tr>
+					
+					
+                    
+                    <tr data-movie-id="771269968" data-movie-json='{&#034;id&#034;:771269968,&#034;title&#034;:&#034;Quartet&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;PG-13&#034;,&#034;runtime&#034;:&#034;1 hr. 38 min.&#034;,&#034;synopsis&#034;:&#034;It&amp;#039;s sweet, gentle, and predictable to a fault, but Dustin Hoffman&amp;#039;s affectionate direction and the talented cast&amp;#039;s amiable charm make Quartet too difficult to resist.&#034;,&#034;thumbnail&#034;:&#034;http://content7.flixster.com/movie/11/16/79/11167905_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Maggie Smith&#034;,&#034;id&#034;:&#034;162652436&#034;},{&#034;name&#034;:&#034;Tom Courtenay&#034;,&#034;id&#034;:&#034;162674631&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					
+					
+                    
+                    
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">29%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/upside_down_2012/"  class=""  sub="hover">Upside Down</a>
+					</tr>
+					
+					
+                    
+                    <tr data-movie-id="771314029" data-movie-json='{&#034;id&#034;:771314029,&#034;title&#034;:&#034;American Mary&#034;,&#034;year&#034;:2013,&#034;mpaa&#034;:&#034;R&#034;,&#034;runtime&#034;:&#034;1 hr. 43 min.&#034;,&#034;synopsis&#034;:&#034;It suffers a bit from some uneven acting and an underwhelming climax, but American Mary utilizes pitch black humor and striking visuals to deliver gory, freaky thrills for body horror enthusiasts.&#034;,&#034;thumbnail&#034;:&#034;http://content7.flixster.com/movie/11/17/00/11170017_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Katharine Isabelle&#034;,&#034;id&#034;:&#034;280207978&#034;},{&#034;name&#034;:&#034;Antonio Cupo&#034;,&#034;id&#034;:&#034;755905990&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+		
+	</span></td>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					
+					
+                    
+                    
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Rotten" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+tiny rotten"></span><span class="tMeterScore">26%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/the_brass_teapot/"  class=""  sub="hover">The Brass Teapot</a>
+					</tr>
+					
+					
+                    
+                    <tr data-movie-id="563562998" data-movie-json='{&#034;id&#034;:563562998,&#034;title&#034;:&#034;Safety Last!&#034;,&#034;year&#034;:1923,&#034;mpaa&#034;:&#034;Unrated&#034;,&#034;runtime&#034;:&#034;1 hr. 20 min.&#034;,&#034;synopsis&#034;:&#034;After Charlie Chaplin and Buster Keaton, the silent film era&amp;#039;s &amp;#034;third genius&amp;#034; was Harold Lloyd, who stars in this Horatio Alger-style story of an...&#034;,&#034;thumbnail&#034;:&#034;http://content6.flixster.com/movie/10/95/40/10954040_mob.jpg&#034;,&#034;cast&#034;:[{&#034;name&#034;:&#034;Harold Lloyd&#034;,&#034;id&#034;:&#034;364638183&#034;},{&#034;name&#034;:&#034;Mildred Davis&#034;,&#034;id&#034;:&#034;410145925&#034;}]}'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		
+		
+	</span></td>
+										
+
+
+
+
+
+
+
+
+
+
+
+
+						</td>
+					
+					
+                    
+                    
+						<td class="left_col">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tMeterIcon tiny" >
+		
+			
+			<span title="Fresh" class="icon 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+tiny fresh"></span><span class="tMeterScore">86%</span>
+        
+	
+						<td class="middle_col">
+							
+
+
+
+
+
+
+
+
+
+
+
+<a target="_top" href="/m/supporting_characters/"  class=""  sub="hover">Supporting Characters</a>
+					</tr>
+					
+			</table>
+		</div>
+	
+	<script class="hoverBubbleTmpl" type="text/html">
+            <div class="bubbleContent">
+                    <img class="media_block_image" src="{{ thumbnail }}" />
+                        <div class="title">{{ title }}</div>
+                        {% $.each(cast, function(idx, val){ %}
+                        {% }); %}               
+                        <div class="mpaa">{{ mpaa }}, {{ runtime }}</div>
+                    </div>
+                <div class="synopsis">{{ synopsis }}</div>
+                <div class="rating_widget" comp="Rating" movieId="{{ id }}" data-event-action="Hover Bubble" data-facepile="true" data-source="RTS" data-hidewtsifrated="true">
+                        <div class="rating_buttons">
+                        </div>
+                        
+                </div>
+        </div>
+            </div>
+    </script>	
+	 
+	$("#movies_sidebar")
+	   .on("mousedown", ".top_box_office tr", function(){ _gaq.push(['_trackEvent', 'mob', 'Movies Tab', 'Top Box Office']);})
+       .on("mousedown", ".top_rentals tr", function(){ _gaq.push(['_trackEvent', 'mob', 'DVD Tab', 'Top Rentals']);})
+       .on("mousedown", ".in-theaters-tab", function(){ _gaq.push(['_trackEvent', 'mob', 'Movies Tab', 'Tab Click']);})
+	</script>
+	</div>
+		
+</div>
+
+			
+	
+
+                 
+	
+            <div id="mobPanel" style="background:white; position:relative;">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.title = "A Hijacking - Rotten Tomatoes";
+_gaq.push(['_trackPageview', '/MOB-Opening']);
+	$("[comp=HoverTip]").comp();
+</script>
+
+<div comp="HashLoader" data-url="/m/a_hijacking/theater?id=" data-param="theater" data-domtype="append"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_box media_block main_movie_area"  >
+		
+			
+			
+		
+	</div>
+		
+        
+            <a class="trailer_play_action_button" href="/m/a_hijacking/trailer/" data-video-id="11179236">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+    
+	    
+	    
+    
+
+
+            </a>
+        
+        
+            <a id="trailer_play_button" class="trailer_action_button trailer_play_action_button" href="/m/a_hijacking/trailer/" data-video-id="11179236">Play Trailer</a>
+        
+        
+    </div>
+    <div class="media_block_content movie_content_area">
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="meter_box right_door" comp="HoverTip">
+			<p class="help tomatometer_bar_help" sub="hover" tip="The percentage of Approved Tomatometer Critics who have given this movie a positive review"><span>tomatometer</span></p>
+				<li><a reviewtype="tMeter" href="#all-critics-numbers" id="all-critics-link" class="active">All Critics</a></li>
+			</ul>
+			<meta itemprop="awards" content="Certified Fresh" />
+			<div id="all-critics-numbers" class="critic_side_container" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+				
+													
+							
+								
+								
+							
+							<meta itemprop="bestRating" content="100" />
+							<meta itemprop="name" content="Tomatometer Score" />
+								Average Rating: <span>7.9/10</span><br />
+								Fresh: 45 | Rotten: 1
+						</a>
+						<div class="tomato_consensus">
+							
+						</div>
+					
+				
+			<div id="top-critics-numbers" class="critic_side_container">
+				
+													
+							
+								
+								
+							
+							<p class="critic_stats">
+								Critic Reviews: 13<br />
+						</div>
+						<div class="tomato_consensus">
+							
+						</div>
+					
+				
+		</div>
+			
+		<a class="fan_side" style="display:block;" href="#audience_reviews">
+			
+				<span class="meter popcorn numeric ">76</span>
+					<span class="subText liked_it" >liked it</span><br/>
+					User Ratings: 4,000
+			
+			
+		<div class="clearfix"></div>
+</div>
+	<div class="meter_box_bottom right_side">
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	
+</script>
+
+	
+	
+	
+</div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.rottentomatoes.com/m/a_hijacking/" data-count="horizontal" data-text="A Hijacking - Rotten Tomatoes" data-via="RottenTomatoes"></a>
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+ 
+
+
+	<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.rottentomatoes.com%2Fm%2Fa_hijacking%2F&media=http%3A%2F%2Fcontent6.flixster.com%2Fmovie%2F11%2F17%2F07%2F11170748_ori.jpg&description=A+Hijacking+-+Rotten+Tomatoes" class="pin-it-button" count-layout="horizontal">
+</div>
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+			
+		
+
+<div class="gPlusOneContainer" >
+	<script type="text/javascript"> if(typeof gapi != 'undefined') gapi.plusone.go("gPlusOne"); </script>
+
+    
+    	
+
+
+
+
+
+
+
+
+
+
+<div class="stumbleUponContainer" >
+</div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		var allCriticsTab = $('#all-critics');
+		var allCriticsNumbers = $('#all-critics-numbers');
+		var topCriticsTab = $('#top-critics');
+		var topCriticsNumbers = $('#top-critics-numbers');
+		allCriticsLink.click(function(e) {
+			topCriticsLink.removeClass();
+			allCriticsLink.addClass('active');
+			allCriticsTab.click();
+
+			e.preventDefault();
+			allCriticsNumbers.hide();
+			topCriticsNumbers.show();
+		});
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h4 class="lineHeader"><span class="fl">My Rating</span></h4>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<a href=""  class="media_block_image">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+
+	
+
+
+
+    </a>
+	<div class="media_block_content" id="userProfile" style="position:relative;">
+            <a href="javascript:void(0);" sub="edit" class="text_button subtle smaller" style="display:none;">Edit</a>
+	
+			<a href="javascript:void(0);" sub="wts" class="wts"></a> 
+			<a href="javascript:void(0);" sub="star" class="stars"></a>
+		<textarea class="review clearfix" name="review" comp="ExpandableTextInput" sub="review" placeholder="Add a Review (Optional)"></textarea>
+
+				<a id="fbShareOn" sub="fbShare" class="share_button fb" href="javascript:void(0);" style="vertical-align:middle;"></a>
+			</div>
+			<div class="fr like_status small subtle" sub="likeStatus" style="display:none;">
+			</div>
+			<div class="fl">
+				<span sub="wait" class="status" style="vertical-align:middle;"></span>
+		</div>		
+</div>
+$(function(){
+});
+
+
+	<div class="content_footer clearfix">
+	</div>
+
+
+    <div class="col_p col_423">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_box "  >
+		
+			
+			
+		
+	</div>
+		
+		<p id="movieSynopsis" class="movie_synopsis" itemprop="description">
+			
+			
+			
+		<div class="left_col">
+				<span comp="HoverTip">
+						
+					<a href="javascript:void(0);" sub="hover" tip="for language"><span itemprop="contentRating">R</span></a>, 
+				<time itemprop="duration" datetime="P99M">1 hr. 39 min.</time>
+			
+				<span>
+						<a href="/movie/browser.php?movietype=1&genre=13"><span itemprop="genre">Mystery & Suspense</span></a>
+				</span>
+			
+				<p itemprop="director" itemscope itemtype="http://schema.org/Person">
+					<span>
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/tobias_lindholm/"  itemprop="url"><span itemprop="name">Tobias Lindholm</span></a>
+					</span>
+			
+		</div>
+			<p><label class="subtle">In Theaters:</label> <span><span itemprop="datePublished" content="2013-06-21">Jun 21, 2013 Limited</span></span></p>
+			
+			<span itemprop="productionCompany">Magnolia Pictures</span>
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="External Icon" height="8" alt="External Icon" width="10" border="0"/></a>
+            
+			
+	</div>
+	</div>
+		
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="content_header clearfix">
+			
+				<h3>Cast</h3>	
+		
+		
+	<div class="content_body clearfix">
+        <div class="moreContainer">
+			<ul class="clearfix">
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/amalie_ihle_alstrup/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="Amalie Ihle Alstrup"  itemprop="image" alt="Amalie Ihle Alstrup" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/amalie_ihle_alstrup/"  itemprop="url"><span itemprop="name">Amalie Ihle Alstrup</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/johan_philip_asbaek/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="Johan Philip Asb�k"  itemprop="image" alt="Johan Philip Asb�k" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/johan_philip_asbaek/"  itemprop="url"><span itemprop="name">Johan Philip Asb�k</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/ole_dupont/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="Ole Dupont"  itemprop="image" alt="Ole Dupont" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/ole_dupont/"  itemprop="url"><span itemprop="name">Ole Dupont</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/soren_malling/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="S�ren Malling"  itemprop="image" alt="S�ren Malling" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/soren_malling/"  itemprop="url"><span itemprop="name">S�ren Malling</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/roland_moller/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="Roland M�ller"  itemprop="image" alt="Roland M�ller" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/roland_moller/"  itemprop="url"><span itemprop="name">Roland M�ller</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/abdihakin_asgar/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="Abdihakin Asgar"  itemprop="image" alt="Abdihakin Asgar" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/abdihakin_asgar/"  itemprop="url"><span itemprop="name">Abdihakin Asgar</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/dar_salim/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/dar_salim/"  itemprop="url"><span itemprop="name">Dar Salim</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/gary_skjoldmose_porter/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="Gary Skjoldmose Porter"  itemprop="image" alt="Gary Skjoldmose Porter" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/gary_skjoldmose_porter/"  itemprop="url"><span itemprop="name">Gary Skjoldmose Porter</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/770921406/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="Pilou Asbaek"  itemprop="image" alt="Pilou Asbaek" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/770921406/"  itemprop="url"><span itemprop="name">Pilou Asbaek</span></a>
+							<span class="characters"><br/></span>
+					</li>
+					
+			
+
+
+
+
+
+
+
+
+
+
+
+<a class="media_block_image" href="/celebrity/ronald_moller/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		<img src="http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif" width="50" alt="Ronald Moller"  itemprop="image" alt="Ronald Moller" class="actorThumb medium" />
+
+						</a>
+						<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+<a class="" href="/celebrity/ronald_moller/"  itemprop="url"><span itemprop="name">Ronald Moller</span></a>
+							<span class="characters"><br/></span>
+					</li>
+			</ul>
+		</div>
+		<script> 
+	            $("#cast-info .moreContainer").moreList();
+		</script>
+	</div>
+		
+</div>
+
+
+    </div>
+    <div class="col_p col_300">
+        <div class="medrec_top_wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="medrec_top_ad" class="page_ad" style="height:250px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+	
+	var slot=googletag.defineSlot('/6327/rt.movie/movie_page', [[300,250],[300,600]], 'medrec_top_ad')
+	
+	
+		.setTargeting("unit", "medrec_top")	
+	
+	
+    
+	
+    slot.renderEnded = function(){
+    	var wrapper = $("#medrec_top_ad");
+    	  
+    };
+	
+</script>
+
+
+
+</div>
+        </div>
+        <div class="medrec_middle_wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="medrec_middle_ad" class="page_ad" style="height:250px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+	
+	var slot=googletag.defineSlot('/6327/rt.movie/movie_page', [[300,250],[300,600]], 'medrec_middle_ad')
+	
+	
+		.setTargeting("unit", "medrec_middle")	
+	
+	
+    
+	
+    slot.renderEnded = function(){
+    	var wrapper = $("#medrec_middle_ad");
+    	  
+    };
+	
+</script>
+
+
+
+</div>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="content_header clearfix">
+			
+				<h3><a href="/m/a_hijacking/trailers/">A Hijacking Trailer</a> &amp; Photos</h3>	
+		
+		
+	<div class="content_body clearfix">
+	
+			<ul class="movie_pictures clearfix">
+				<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+</li>
+				<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+</li>
+				<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+</li>
+				<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+</li>
+				<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+</li>
+			</ul>
+		</div>
+	
+			<ul class="movie_clips clearfix">
+			</ul>
+		</div>
+	
+	<div class="content_footer clearfix">
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.cr { clear: right; }
+	width: 100%;s
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="content_header clearfix">
+			
+				<h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</h3>	
+		
+		
+	<div class="content_body clearfix">
+	
+	<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="/m/a_hijacking/reviews/" >All Critics (46)</a>
+		| 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		| 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="/m/a_hijacking/reviews/?sort=rotten" >Rotten (1)</a>
+				
+			$("#myCriticsReviews").mousedown(function(){_gaq.push(['_trackEvent', 'FYC', 'MOB', 'My Critics tab']);});
+	</p>
+	
+	<div id="reviews" comp="HoverTip">
+		
+	
+		
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div sub="hover" tip="Original Score: 2.5/4" class="media_block_image icon small rotten"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		We&#39;re impatient for action, any kind of action - but preferably the sort that involves a team of Navy SEALs, maybe led by Dwayne Johnson. Instead, we get something like a merger meeting.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: Newark Star-Ledger" alt="Source: Newark Star-Ledger"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://content9.flixster.com/critic/16/1659_tmb.gif" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">Newark Star-Ledger</div>					
+			
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/tomato/ico_topcritic_star.png"  alt="Top Critic Icon" border="0"/>Top Critic</div>
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div sub="hover" tip="Original Score: 4/4" class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		Hand-held camerawork, so often a confounded nuisance, here makes the conditions on board the Rozen feel nauseatingly urgent.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: New York Post" alt="Source: New York Post"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://images.rottentomatoescdn.com/images/redesign/user.none.tmb.jpg" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">New York Post</div>					
+			
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/tomato/ico_topcritic_star.png"  alt="Top Critic Icon" border="0"/>Top Critic</div>
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div  class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		No mainstream American thriller could ever be made about this subject that resisted simple-minded narrative clich�s the way &quot;A Hijacking&quot; does, or that refused to depict its characters as either heroes or villains.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: Salon.com" alt="Source: Salon.com"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://content6.flixster.com/critic/22/2236_tmb.jpg" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">Salon.com</div>					
+			
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/tomato/ico_topcritic_star.png"  alt="Top Critic Icon" border="0"/>Top Critic</div>
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div sub="hover" tip="Original Score: 4/5" class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		Lindholm turns tedium and frustration into agonizing suspense.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: New York Times" alt="Source: New York Times"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://content6.flixster.com/critic/16/1628_tmb.gif" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">New York Times</div>					
+			
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/tomato/ico_topcritic_star.png"  alt="Top Critic Icon" border="0"/>Top Critic</div>
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div sub="hover" tip="Original Score: 4/5" class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		&quot;A Hijacking&quot; is as lean, focused and to the point as its title.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: Los Angeles Times" alt="Source: Los Angeles Times"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://content8.flixster.com/critic/16/1614_tmb.gif" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">Los Angeles Times</div>					
+			
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/tomato/ico_topcritic_star.png"  alt="Top Critic Icon" border="0"/>Top Critic</div>
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div  class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		This feature film shows how much tension, telling detail and sheer dramatic expertise can be squeezed into a running time of less than two hours.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: Wall Street Journal" alt="Source: Wall Street Journal"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://content7.flixster.com/critic/17/1793_tmb.jpg" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">Wall Street Journal</div>					
+			
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/tomato/ico_topcritic_star.png"  alt="Top Critic Icon" border="0"/>Top Critic</div>
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div  class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		Moment by moment we find ourselves wondering what will happen next...
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: Leonard Maltin&#039;s Picks" alt="Source: Leonard Maltin&#039;s Picks"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://content7.flixster.com/critic/23/2301_tmb.gif" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">Leonard Maltin's Picks</div>					
+			
+		</div>
+</div>
+
+
+<script>
+    $(".quote_bubble .comment").moreLess();
+</script>
+
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="quote_bubble  fr cr" >
+	<div class="review_quote_top"></div>
+		
+			
+		
+		<div class="quote_contents media_block">
+			<div class="media_block_content">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</p>
+					<span class="fr subtle">June 20, 2013</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+		<a href="http://www.reelingreviews.com/ahijacking.htm"  target="_blank" rel="nofollow"  >Full Review
+
+
+
+
+
+
+
+
+
+	
+
+					
+				</div>
+		</div>
+	<div class="review_source media_block">
+		<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+<a href="/critic/robin-clifford/" class="" >Robin Clifford</a>
+			
+					
+				
+			
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div sub="hover" tip="Original Score: A" class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		A Hijacking is an absorbing, highly moving film that&#39;s lingered heavily on the mind for a couple of days now. 
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: The Playlist" alt="Source: The Playlist"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://images.rottentomatoescdn.com/images/redesign/user.none.tmb.jpg" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">The Playlist</div>					
+			
+		</div>
+</div>
+
+
+<script>
+    $(".quote_bubble .comment").moreLess();
+</script>
+
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="quote_bubble  fr cr" >
+	<div class="review_quote_top"></div>
+		
+			
+		
+		<div class="quote_contents media_block">
+			<div class="media_block_content">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</p>
+					<span class="fr subtle">June 20, 2013</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+		<a href="http://www.avclub.com/articles/a-hijacking,99227/?utm_medium=RSS&utm_campaign=feeds&utm_source=feedly"  target="_blank" rel="nofollow"  >Full Review
+
+
+
+
+
+
+
+
+
+	
+
+					
+				</div>
+		</div>
+	<div class="review_source media_block">
+		<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+<a href="/critic/ignatiy-vishnevetsky/" class="" >Ignatiy Vishnevetsky</a>
+			
+					
+				
+			
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div  class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		More than a meticulously detailed, convincing re-staging of a crisis, the film is also the portrait of two men doing their best amid dire circumstances.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: France24" alt="Source: France24"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://images.rottentomatoescdn.com/images/redesign/user.none.tmb.jpg" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="France24" alt="Source: France24"/></a>
+				
+			
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div sub="hover" tip="Original Score: A-" class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		This riveting sea drama look so realistic you might swear that the Danes hired real Somali pirates.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: Compuserve" alt="Source: Compuserve"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://content7.flixster.com/critic/16/1641_tmb.gif" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">Compuserve</div>					
+			
+		</div>
+</div>
+
+
+<script>
+    $(".quote_bubble .comment").moreLess();
+</script>
+
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="quote_bubble  fl cl" >
+	<div class="review_quote_top"></div>
+		
+			
+		
+		<div class="quote_contents media_block">
+			<div class="media_block_content">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</p>
+					<span class="fr subtle">June 15, 2013</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+		<a href="http://www.slantmagazine.com/film/review/a-hijacking"  target="_blank" rel="nofollow"  >Full Review
+
+
+
+
+
+
+
+
+
+	
+
+					
+				</div>
+		</div>
+	<div class="review_source media_block">
+		<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+<a href="/critic/nick-schager/" class="" >Nick Schager</a>
+			
+					
+				
+			
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+            		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote">
+			
+			
+		
+			<div sub="hover" tip="Original Score: 3/5" class="media_block_image icon small fresh"></div>
+				<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		In his almost documentary style of filmmaking, Lindholm has achieved an impressive sense of realism and you can certainly see why the film has attracted a lot of attention on the festival circuit.
+
+
+				<div class="small">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="Source: Fan The Fire" alt="Source: Fan The Fire"/></a>
+	
+
+					
+			</div>
+	</div>
+		<img class="critic_thumb media_block_image" src="http://images.rottentomatoescdn.com/images/redesign/user.none.tmb.jpg" />
+			<div class="bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+				
+					<div class="subtle italic">Fan The Fire</div>					
+			
+		</div>
+</div>
+
+
+<script>
+    $(".quote_bubble .comment").moreLess();
+</script>
+
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="quote_bubble  fl cl" >
+	<div class="review_quote_top"></div>
+		
+			
+		
+		<div class="quote_contents media_block">
+			<div class="media_block_content">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</p>
+					<span class="fr subtle">June 6, 2013</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+		<a href="http://rogersmovienation.com/2013/06/06/movie-review-a-hijacking/"  target="_blank" rel="nofollow"  >Full Review
+
+
+
+
+
+
+
+
+
+	
+
+					
+				</div>
+		</div>
+	<div class="review_source media_block">
+		<div class="media_block_content">
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+<a href="/critic/roger-moore/" class="" >Roger Moore</a>
+			
+					
+				
+			
+	</div>
+
+
+    
+$(function(){
+});
+
+	
+		
+		
+	
+ 	
+	<div class="content_footer clearfix">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="/m/a_hijacking/reviews/" >View all critic reviews (46)</a>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_box " id="audience_reviews" >
+		
+			
+			
+		
+	</div>
+		
+				    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="review_quote_top"></div>
+								
+	<div id="quoteBubble901245105_771315311" class="review_quote_stretch audience_contents clearfix">
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+		</div>
+	</div>
+	<div class="review_quote_bottom">
+	</div>
+	<div class="review_source media_block">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+
+
+
+
+		
+			<div class="bold">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Movie Waffler
+			</div>
+			<p class="superreviewer"><span class="icon profile superreviewer"></span>Super Reviewer</p>
+		</div>		 
+</div>
+
+<script>
+    $(".quote_bubble .comment").moreLess();
+</script>
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+<div class="quote_bubble  fr cr" >
+
+
+		<div class="scoreWrapper"><span class="rating small on wts"></span></div>
+		<div class="comment">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+		Tom Hanks is in a similar movie coming out. interesting.
+
+
+
+	
+		<span class="small fr subtle date">June 21, 2013</span>
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+
+
+
+
+		
+			<div class="bold">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<a href="/user/id/847108725/" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</div>
+		</div>		 
+</div>
+
+<script>
+    $(".quote_bubble .comment").moreLess();
+</script>
+
+				
+	</div>
+		<div class="float_right">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="content_header clearfix">
+			
+				<h3>
+
+
+
+
+
+
+
+
+
+
+			
+		
+	</div>
+		
+        
+    
+        No quotes approved yet for A Hijacking.  Logged in users can submit quotes.
+    
+	</div>
+		<div class="float_right">
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="content_header clearfix">
+			
+				<h3>Discussion Forum</h3>	
+		
+		
+	<div class="content_body clearfix">
+	<tbody>
+	
+		<thead><tr>
+			<th class="lastPostDate">Last Post</th>
+		</tr></thead>
+		
+		
+				<td class="title"><a href="/m/a_hijacking//forum/?threadid=328191356">guess the tomatometer</a></td>
+				<td class="lastPostDate">10 days ago</td>
+			</tr> 
+		
+		</table>
+	
+	
+	</div>
+		<div class="float_right"><a href="/m/a_hijacking/forum/">View all posts (1)</a></div>
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_box " id="features_sidebar" >
+		
+			
+			
+		
+	</div>
+				
+	 
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="Total Recall" src="http://content8.flixster.com/site/10/25/76/10257678_ori.jpg" width="115" height="115"  />
+			
+				<a href="/m/monsters_university/news/1927690/total_recall_john_goodmans_best_movies/">Total Recall</a>
+			</div>
+	 
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="Critics Consensus" src="http://content6.flixster.com/site/10/25/77/10257700_ori.jpg" width="115" height="115"  />
+			
+				<a href="/m/monsters_university/news/1927703/critics_consensus_monsters_university_is_certified_fresh/">Critics Consensus</a>
+			</div>
+	 
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="Diana Trailer" src="http://content8.flixster.com/site/10/25/76/10257666_ori.jpg" width="115" height="115"  />
+			
+				<a href="http://www.rottentomatoes.com/m/diana_2013/trailers">Diana Trailer</a>
+			</div>
+	 
+			
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="24 Frames" src="http://content6.flixster.com/site/10/25/76/10257660_ori.jpg" width="115" height="115"  />
+			
+				<a href="http://www.rottentomatoes.com/gallery/24-frames-zombie-nation/">24 Frames</a>
+			</div>
+	
+
+	<div class="content_footer clearfix">
+	</div>
+
+	
+</div>
+<div class="clearfix">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+            #contentNews h5 { margin-bottom: 0px;}
+        </style>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_box " id="contentNews" >
+		
+			
+			
+		
+	</div>
+				
+					<div class="newsRow">
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+						
+					</div>
+			
+	<div class="content_footer clearfix">
+	</div>
+
+	
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_box freshlinks_sidebar" id="freshlinks_sidebar" >
+		
+			
+			
+		
+	</div>
+		
+		<h4 id="freshlinks_featured_header">Featured</h4>
+		 <p>Movie:	ID: 771315311
+	Release Date: 2013-06-21 00:00:00.0
+	Status: 1
+		
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="Best Movie Beach Scenes" src="http://content9.flixster.com/site/10/25/76/10257683_ori.jpg" width="55" height="55"  />
+			
+				
+					<h5>Best Movie Beach Scenes 
+
+
+
+
+
+
+
+
+
+				</a>
+				
+				
+		</div>
+		<div class="media_block" pi="2104">
+			<a class="media_block_image" href="http://www.rollingstone.com/movies/pictures/the-10-best-zombie-movie-scenes-20130618" target="_blank" onclick="_gaq.push(['_trackEvent', 'Exit Links', 'Click', 'http://www.rollingstone.com/movies/pictures/the-10-best-zombie-movie-scenes-20130618']);">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</a>
+			<div class="media_block_content">
+				<a target="_blank" href="http://www.rollingstone.com/movies/pictures/the-10-best-zombie-movie-scenes-20130618" onclick="_gaq.push(['_trackEvent', 'Exit Links', 'Click', 'http://www.rollingstone.com/movies/pictures/the-10-best-zombie-movie-scenes-20130618']);">
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="External Link" alt="External Link"/></h5>
+				
+				Prepare for <em>World War Z</em> with Rolling Stone's undead video gallery.
+			</div>
+		
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="Family Movie Mistakes" src="http://content8.flixster.com/site/10/25/76/10257674_ori.jpg" width="55" height="55"  />
+			
+				
+					<h5>Family Movie Mistakes 
+
+
+
+
+
+
+
+
+
+				</a>
+				
+				
+		</div>
+		<div class="media_block" pi="2061">
+			<a class="media_block_image" href="http://www.hitfix.com/galleries/tron-to-sucker-punch-10-bad-movies-that-look-great" target="_blank" onclick="_gaq.push(['_trackEvent', 'Exit Links', 'Click', 'http://www.hitfix.com/galleries/tron-to-sucker-punch-10-bad-movies-that-look-great']);">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</a>
+			<div class="media_block_content">
+				<a target="_blank" href="http://www.hitfix.com/galleries/tron-to-sucker-punch-10-bad-movies-that-look-great" onclick="_gaq.push(['_trackEvent', 'Exit Links', 'Click', 'http://www.hitfix.com/galleries/tron-to-sucker-punch-10-bad-movies-that-look-great']);">
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="External Link" alt="External Link"/></h5>
+				
+				Sometimes even terrible movies can be beautiful; here are 10 of them, from HitFix.
+			</div>
+		
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="" alt="50 Most Classic Movie Moms" src="http://content7.flixster.com/site/10/25/70/10257029_ori.jpg" width="55" height="55"  />
+			
+				
+					<h5>50 Most Classic Movie Moms 
+
+
+
+
+
+
+
+
+
+				</a>
+				
+				
+		</div>
+		</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+RT.ads.push("fresh_links_ad");
+	
+	
+	
+		.addService(googletag.pubads())
+	
+	
+	
+	
+    slot.oldRenderEnded = slot.renderEnded;
+    	slot.oldRenderEnded();
+    	wrapper.css("height","").css("width","");
+    	
+    
+});
+
+
+
+
+
+		<h4 id="freshlinks_promos_header">Promos</h4>
+		
+		<div class="media_block" pi="8">
+			<a class="media_block_image" href="http://twitter.com/RottenTomatoes" target="_blank" onclick="_gaq.push(['_trackEvent', 'Exit Links', 'Click', 'http://twitter.com/RottenTomatoes']);">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</a>
+			<div class="media_block_content">
+				<a target="_blank" href="http://twitter.com/RottenTomatoes" onclick="_gaq.push(['_trackEvent', 'Exit Links', 'Click', 'http://twitter.com/RottenTomatoes']);">
+
+
+
+
+
+
+
+
+
+<img src="http://images.rottentomatoescdn.com/images/icons/offsite.gif"  title="External Link" alt="External Link"/></h5>
+				
+				Spice up your feed with hourly Tomatometer updates!
+			</div>
+		
+		</div>
+	
+	<div class="content_footer clearfix">
+	</div>
+
+
+    <div class="col_p col_300">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+	#homepagenews .newslink { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:inline-block; width:240px;}	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="content_header clearfix">
+			
+				<h3><a href="/news/">Movie News</a></h3>	
+		
+		
+	<div class="content_body clearfix">
+		<h4 class="fl">Featured on RT</h4>
+		<ul class="cleardiv bullets">
+			<li class="columned">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</span>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<a href="/m/monsters_university/news/1927703/critics_consensus_monsters_university_is_certified_fresh/" title="34 Comments" class="comments">34</a>
+	
+				</span>
+			
+				<span class="newslink">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a href="/m/world-war-z/news/1927711/red_carpet_roundup_with_brad_pitt_billy_crystal_alessandra_ambrosio_and_more/" title="Source: Rotten Tomatoes"   >Red Carpet Roundup with Brad Pitt, Billy Crystal, Alessandra Ambrosio and More</a>
+	
+
+				<span class="fr">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+	 
+	
+
+			</li>
+			<li class="columned">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</span>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<a href="/m/monsters_university/news/1927690/total_recall_john_goodmans_best_movies/" title="60 Comments" class="comments">60</a>
+	
+				</span>
+			
+				<span class="newslink">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a href="/m/true_romance/news/1927702/james_gandolfini_1961-2013/" title="Source: Rotten Tomatoes"   >James Gandolfini: 1961-2013</a>
+	
+
+				<span class="fr">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+	 
+	
+
+			</li>
+			<li class="columned">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</span>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<a href="/m/world-war-z/news/1927692/in_pictures_zombie_nation/" title="0 Comments" class="comments">0</a>
+	
+				</span>
+			
+				<span class="newslink">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a href="/m/monsters_university/news/1927689/video_interviews_with_cast__crew_of_monsters_university/" title="Source: Rotten Tomatoes"   >Video Interviews with Cast & Crew of <em>Monsters University</em></a>
+	
+
+				<span class="fr">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+	 
+	
+
+			</li>
+			<li class="columned">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</span>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<a href="/m/21_and_over/news/1927680/digital_multiplex_21__over_quartet_and_more/" title="3 Comments" class="comments">3</a>
+	
+				</span>
+			
+		
+		<h4 class="cleardiv">Top Headlines</h4>		
+			
+				<span class="newslink">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a href="/m/world-war-z/news/1927709/brad_pitt_teases_world_war_z_sequel/" title="Source: Moviefone" target="_blank"  >Brad Pitt Teases <i>World War Z</i> Sequel <img src="http://images.rottentomatoes.com/images/icons/offsite.gif" alt="Moviefone in new window" width="10" height="8" border="0" /></a>
+	
+
+				<span class="fr">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+	
+		<a href="/m/world-war-z/news/1927709/comments/brad_pitt_teases_world_war_z_sequel/" title="0 Comments" class="comments">0</a>
+
+			</li>
+			<li class="columned">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</span>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+	
+				</span>
+			
+				<span class="newslink">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a href="/m/fast_and_furious_7/news/1927707/james_wan_talks_fast_and_furious_7/" title="Source: Collider.com" target="_blank"  >James Wan Talks <i>Fast and Furious 7</i> <img src="http://images.rottentomatoes.com/images/icons/offsite.gif" alt="Collider.com in new window" width="10" height="8" border="0" /></a>
+	
+
+				<span class="fr">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+	
+		<a href="/m/fast_and_furious_7/news/1927707/comments/james_wan_talks_fast_and_furious_7/" title="0 Comments" class="comments">0</a>
+
+			</li>
+			<li class="columned">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</span>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+	
+				</span>
+			
+				<span class="newslink">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a href="/m/bad_teacher/news/1927705/bad_teacher_2_in_the_works/" title="Source: USA Today" target="_blank"  ><i>Bad Teacher 2</i> in the Works <img src="http://images.rottentomatoes.com/images/icons/offsite.gif" alt="USA Today in new window" width="10" height="8" border="0" /></a>
+	
+
+				<span class="fr">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+	
+		<a href="/m/bad_teacher/news/1927705/comments/bad_teacher_2_in_the_works/" title="0 Comments" class="comments">0</a>
+
+			</li>
+			<li class="columned">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+				</span>
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+	
+				</span>
+			
+				<span class="newslink">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<a href="/m/world-war-z/news/1927701/has_brad_pitt_ever_made_a_successful_blockbuster/" title="Source: Moviefone" target="_blank"  >Has Brad Pitt Ever Made a Successful Blockbuster? <img src="http://images.rottentomatoes.com/images/icons/offsite.gif" alt="Moviefone in new window" width="10" height="8" border="0" /></a>
+	
+
+				<span class="fr">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+	
+		<a href="/m/world-war-z/news/1927701/comments/has_brad_pitt_ever_made_a_successful_blockbuster/" title="9 Comments" class="comments">9</a>
+
+			</li>
+		</ul>
+	
+	<div class="content_footer clearfix">
+	</div>
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content_box "  >
+		
+			
+			
+		
+	</div>
+		
+		
+		
+		
+
+	<div class="content_footer clearfix">
+	</div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+RT.ads.push("medrec_bottom_ad");
+	
+	
+	
+		.addService(googletag.pubads())
+	
+	
+		.setTargeting("pos", "bottom")	
+	
+	
+    slot.oldRenderEnded = slot.renderEnded;
+    	slot.oldRenderEnded();
+    	wrapper.css("height","").css("width","");
+    	
+    
+});
+
+
+
+
+                                     
+</div>
+    
+    
+    
+    
+
+
+
+                </div>
+                <div class="veil" style="display:none;">
+                </div>
+        </div>
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="leaderboard_bottom_ad" class="page_ad leaderboard" style="height:90px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+	
+	var slot=googletag.defineSlot('/6327/rt.movie/movie_page', [[728,90]], 'leaderboard_bottom_ad')
+	
+	
+		.setTargeting("unit", "leaderboard_bottom")	
+	
+	
+    
+	
+    slot.renderEnded = function(){
+    	var wrapper = $("#leaderboard_bottom_ad");
+    	  
+    };
+	
+</script>
+
+
+
+</div>
+	
+    
+    <iframe id="trailerModal" src="about:blank" width="760px;" height="100%" style="overflow-x:hidden; margin:0px; display:block;"></iframe>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+</div>
+<script>
+         
+		evt.preventDefault();
+    	var container = $('#trailerModalContainer');        
+        _gaq.push(['_trackEvent', 'Movie Details', 'Play Trailer Modal', 'Play Trailer Modal']);
+        $('#trailerSpinner').show();
+
+
+        if (videoId) {
+        }
+        var playlistType = $(this).data("playlistType");
+            trailerModalUrl = trailerModalUrl + '?moreMovie=true';
+
+        $('#trailerModal').on('load', function(event) {
+            $('#trailerModalContainer').trigger("bax:recenter", {});
+        });
+            $('#trailerModal').attr('src', "about:blank");
+        });
+
+        $('#trailerModalContainer').height(height);
+    });
+
+    $(document).ready(function() {
+    	// Initialize search
+    	
+        mobModel = new Backbone.Model({ movieVanity : "a_hijacking"});
+    	// Instantiate router        
+        
+        //$('.stickem-container').stickem();        
+        var movieList = $("#movies_sidebar");
+        var hoverBubbleView = new RT.Backbone.Views.HoverBubble({el : movieList });
+        
+	    var mobView = new RT.Backbone.Views.MOB({el : mobPanel, model : mobModel });
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="foot_nav">
+	</div>
+		
+		<span class="easteregg">Copyright &copy;</span> Flixster, Inc. All rights reserved.
+		$(".easteregg").click(function(){
+			alert(str);
+		</script>		 
+		| <a href="/privacy">Privacy Policy</a>
+		| <a href="/privacy#thirdparty">Ad Choices</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+googletag.cmd = googletag.cmd || [];
+	googletag.pubads()
+	.setTargeting("gender", "")
+	.setTargeting("url", "/m/a_hijacking/")
+	.setTargeting("usergenres", [])
+	
+		
+	
+	
+	 
+	
+	googletag.pubads().collapseEmptyDivs();
+	googletag.enableServices();	
+
+	googletag.cmd.push(function() { googletag.display(val); });	
+</script>
+
+
+
+
+
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+ var trac = nol_t(pvar);
+</script>
+<!-- END Nielsen Online SiteCensus V6.0 --> 
+
+<div style="display: none;"><img src="http://pixel.quantserve.com/pixel/p-0fuRlG_jy3lfA.gif" height="1" width="1" alt="Quantcast"/></div>
+	
+
+
+<script type="text/javascript" language="javascript" src="http://www2.glam.com/app/site/affiliate/viewChannelModule.act?mName=viewAdJs&affiliateId=1002516552&adSize=970x66"></script>
+<script type="text/javascript" language="javascript" src="http://www2.glam.com/app/site/affiliate/viewChannelModule.act?mName=viewAdJs&affiliateId=356512801&adSize=1010x150"></script>
+
+
+	
+<script>console.log("Bottom of body tag reached.")</script>
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+			
+			
+			
+	
+</body>
+
+</html>

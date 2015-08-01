@@ -1,0 +1,25 @@
+import thred.mythread1 ;
+import java.lang.* ;
+import java.util.* ;
+import java.io.* ;
+
+public class t1
+{
+	
+	public static void main(String[] args)
+	{	try{
+		mythread1 thread1 = new mythread1(1,0) ;
+		mythread1 thread2 = new mythread1(2,1) ;
+		for(int j =0;j<=10;j++)
+		{
+			thread1.start() ;
+			thread2.start() ;	
+		}
+		}
+		catch(Exception e){}
+	}
+
+
+
+	
+}

@@ -27,6 +27,7 @@ public class fetchdatarotten
 		newfile.createNewFile() ;
 		
 		FileOutputStream writer = new FileOutputStream(newfile) ;
+
 		while((input.readLine())!=null)
 		{
 			str = " " ;
@@ -41,10 +42,6 @@ public class fetchdatarotten
 			//}
 		}
 		writer.close() ;
-
-
-		
-		 
 
 		}
 
